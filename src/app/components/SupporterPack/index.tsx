@@ -10,7 +10,7 @@ type SupporterPackProp = {
 const SupporterPack = () => {
   const [active, setActive] = useState<"overview" | "feature">("overview");
 
-  const Information = ({image, text}: SupporterPackProp) => {
+  const PackInformation = ({image, text}: SupporterPackProp) => {
     return (
       <div>
       <img src={`images/${image}`} alt={text} />
@@ -22,10 +22,10 @@ const SupporterPack = () => {
       <>
     <div className="w-full flex flex-col items-end bg-[url('/images/sectionbackgrounds/catacombs.png')] bg-cover bg-center">
       <div className="max-w-lg flex flex-col bg-black text-base m-0">
-        <Information image="yahwehsupport_with_orange_glow.png" text="Yawhweh support Image" />
+        <PackInformation image="yahwehsupport_with_orange_glow.png" text="Yawhweh support Image" />
 
         <div className="relative flex items-center justify-center">
-          <Information image="effects/shadow.png" text="Shadow Image" />
+          <PackInformation image="effects/shadow.png" text="Shadow Image" />
 
           <div className="absolute z-10 flex flex-row gap-8 p-4 text-white">
             <button
