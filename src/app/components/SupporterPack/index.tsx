@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 import { useState } from "react";
 
 type SupporterPackProp = {
@@ -13,7 +12,7 @@ const SupporterPack = () => {
   const PackInformation = ({image, text}: SupporterPackProp) => {
     return (
       <div>
-      <img src={`images/${image}`} alt={text} />
+      <img src={`/images/${image}`} alt={text} />
       </div>
     )
 }
