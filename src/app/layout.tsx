@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { IM_Fell_English_SC, Germania_One } from "next/font/google";
 import "./globals.css";
-import HeroSection from "./components/HeroSection";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -43,7 +42,6 @@ export default function RootLayout({
     >
       <body className="bg-[#1B1B1B] text-white">
         {children}
-        <HeroSection />
       </body>
     </html>
   );

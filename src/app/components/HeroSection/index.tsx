@@ -5,64 +5,75 @@ import Link from "next/link";
 
 const HeroSection = () => {
   return (
-    <section
-      className="relative min-h-screen bg-cover bg-center flex items-center justify-center px-6"
-      style={{
-        backgroundImage: "url('/images/sectionbackgrounds/nicolas-mendoza-catthedral.jpg')",
-      }}
-    >
-      <div className="absolute inset-0 bg-black bg-opacity-70 z-0" />
+    <div className="relative min-h-screen w-full">
+      <div className="fixed inset-0 -z-10">
+        <Image
+          src="/images/sectionbackgrounds/nicolas-mendoza-catthedral.jpg"
+          alt="Cathedral Background"
+          fill
+          className="object-cover"
+          priority
+          quality={80}
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/90 via-black/70 to-black/90" />
+      </div>
 
-      <div className="relative z-10 text-white text-center max-w-4xl mx-auto">
-        <div className="mx-auto mb-8 w-[600px] max-w-full">
+      <div className="relative z-10 flex flex-col items-start justify-center min-h-screen px-6 max-w-4xl mx-auto">
+        <div className="relative mb-6 w-[500px] h-[180px] ml-4">
           <Image
             src="/images/yahwehhero.png"
-            alt="Yahweh’s Creations Logo"
-            width={600}
-            height={200}
-            className="h-auto w-full"
+            alt="Yahweh's Creations Logo"
+            fill
+            className="object-contain"
             priority
           />
         </div>
 
-        <p className="text-white text-[16px] md:text-[18px] leading-relaxed mb-10">
+        <p className="text-white text-base md:text-lg leading-relaxed mb-8 ml-4 max-w-xl">
           A brutal dark fantasy FPS where you, fueled by vengeance and divine purpose,
           storm a cursed cathedral to stop a mad Archbishop from ascending to godhood.
         </p>
 
-        <div className="flex justify-center gap-6 flex-wrap">
+        <div className="mb-4 ml-4">
           <a
             href="https://itch.io"
             target="_blank"
             rel="noopener noreferrer"
+            className="hover:opacity-90 transition"
           >
             <Image
               src="/images/playfreebtn.png"
               alt="Play Free"
               width={220}
               height={64}
-              className="hover:opacity-90 transition w-[220px] h-auto"
+              className="object-contain"
             />
           </a>
+        </div>
 
+        <div className="ml-4">
           <Link
             href="https://store.steampowered.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 border border-[#e6a54c] px-6 py-3 rounded-md text-[16px] font-semibold hover:bg-[#e6a54c] hover:text-black transition"
+            className="flex items-center gap-5 px-6 py-4 rounded-md text-2xl font-semibold hover:bg-[#e6a54c] hover:text-black transition"
           >
-            <Image
-              src="/images/whitesteam.png"
-              alt="Steam"
-              width={24}
-              height={24}
-              className="w-[24px] h-auto"
-            />
-            Steam
+            <div className="relative w-[94px] h-[94px] flex-shrink-0">
+              <Image
+                src="/images/whitesteam.png"
+                alt="Steam"
+                fill
+                className="object-contain"
+                priority
+              />
+            </div>
+            
           </Link>
         </div>
+
+        <div className="h-20" />
       </div>
-    </section>
+    </div>
   );
 };
 
