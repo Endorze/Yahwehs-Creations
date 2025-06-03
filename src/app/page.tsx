@@ -1,3 +1,4 @@
+import H2Title from "./components/H2Title/H2Title";
 import PlayButton from "./components/PlayButton/PlayButton";
 import SupporterPack from "./components/SupporterPack";
 
@@ -11,6 +12,7 @@ export default function Home() {
         <h1 className="text-4xl font-bold text-blue-600">
           Hello Tailwind! And goodmorning Vietnam!
         </h1>
+        <H2Title text="Test title" size="72px"/>
         <Button />
       </div>
 
