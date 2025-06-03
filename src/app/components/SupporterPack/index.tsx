@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 import { useState } from "react";
 
 type SupporterPackProp = {
@@ -13,7 +12,7 @@ const SupporterPack = () => {
   const PackInformation = ({image, text}: SupporterPackProp) => {
     return (
       <div>
-      <img src={`images/${image}`} alt={text} />
+      <img src={`/images/${image}`} alt={text} />
       </div>
     )
 }
@@ -49,8 +48,8 @@ const SupporterPack = () => {
             <span>
               Support Yahweh's Creations on Kickstarter to bring a unique, handcrafted game to life—
               filled with passion, creativity, and heart. Your backing directly helps improve visuals,
-              sound, and storytelling, all crafted by a dedicated indie team. As a supporter, you’ll
-              receive exclusive rewards, early access, and a chance to be part of the game’s legacy.
+              sound, and storytelling, all crafted by a dedicated indie team. As a supporter, you'll
+              receive exclusive rewards, early access, and a chance to be part of the game's legacy.
               Help us turn vision into reality!
             </span>
           )}
@@ -59,8 +58,8 @@ const SupporterPack = () => {
             <span>
               Yahweh's Creations on Kickstarter to bring a unique, handcrafted game to life—
               filled with passion, creativity, and heart. Your backing directly helps improve visuals,
-              sound, and storytelling, all crafted by a dedicated indie team. As a supporter, you’ll
-              receive exclusive rewards, early access, and a chance to be part of the game’s legacy.
+              sound, and storytelling, all crafted by a dedicated indie team. As a supporter, you'll
+              receive exclusive rewards, early access, and a chance to be part of the game's legacy.
               Help us turn vision into reality!
             </span>
           )}
