@@ -28,7 +28,7 @@ const HeroSection = () => {
           storm a cursed cathedral to stop a mad Archbishop from ascending to godhood.
         </p>
 
-        <div className="flex justify-center gap-6">
+        <div className="flex justify-center gap-6 flex-wrap">
           <a
             href="https://itch.io"
             target="_blank"
@@ -42,6 +42,21 @@ const HeroSection = () => {
               className="hover:opacity-90 transition"
             />
           </a>
+
+          <Link
+            href="https://store.steampowered.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 border border-[#e6a54c] px-6 py-3 rounded-md text-[16px] font-semibold hover:bg-[#e6a54c] hover:text-black transition"
+          >
+            <Image
+              src="/whitesteam.png"
+              alt="Steam"
+              width={24}
+              height={24}
+            />
+            Steam
+          </Link>
         </div>
       </div>
     </section>
