@@ -19,7 +19,7 @@ const HeroSection = () => {
           alt="Yahweh’s Creations Logo"
           width={600}
           height={200}
-          className="mx-auto mb-8 h-auto"
+          className="mx-auto mb-8"
           priority
         />
 
