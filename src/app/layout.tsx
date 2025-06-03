@@ -3,10 +3,12 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { IM_Fell_English_SC, Germania_One } from "next/font/google";
 import "./globals.css";
 import HeroSection from "./components/HeroSection";
+import Header from "./components/Header";
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
-  subsets: ["latin"],
+  subsets: ["latin"]
 });
 
 const geistMono = Geist_Mono({
@@ -42,6 +44,7 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} ${imFell.variable} ${germania.variable}`}
     >
       <body className="bg-[#1B1B1B] text-white">
+        <Header />
         {children}
         <HeroSection />
       </body>
