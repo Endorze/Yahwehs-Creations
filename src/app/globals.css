@@ -3,6 +3,8 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 * {
   box-sizing: border-box;
 }
@@ -22,3 +24,4 @@ body {
 .font-germania {
   font-family: var(--font-germania);
 }
+
