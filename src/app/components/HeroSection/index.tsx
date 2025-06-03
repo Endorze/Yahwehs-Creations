@@ -19,8 +19,7 @@ const HeroSection = () => {
           alt="Yahweh’s Creations Logo"
           width={600}
           height={200}
-          style={{ height: "auto" }} // 👈 Key fix
-          className="mx-auto mb-8"
+          className="mx-auto mb-8 h-auto"
           priority
         />
 
