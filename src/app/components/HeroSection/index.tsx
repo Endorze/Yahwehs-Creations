@@ -14,14 +14,16 @@ const HeroSection = () => {
       <div className="absolute inset-0 bg-black bg-opacity-70 z-0" />
 
       <div className="relative z-10 text-white text-center max-w-4xl mx-auto">
-        <Image
-          src="/images/yahwehhero.png"
-          alt="Yahweh’s Creations Logo"
-          width={600}
-          height={200}
-          className="mx-auto mb-8"
-          priority
-        />
+        <div className="mx-auto mb-8 w-[600px] max-w-full">
+          <Image
+            src="/images/yahwehhero.png"
+            alt="Yahweh’s Creations Logo"
+            width={600}
+            height={200}
+            className="h-auto w-full"
+            priority
+          />
+        </div>
 
         <p className="text-white text-[16px] md:text-[18px] leading-relaxed mb-10">
           A brutal dark fantasy FPS where you, fueled by vengeance and divine purpose,
@@ -39,7 +41,7 @@ const HeroSection = () => {
               alt="Play Free"
               width={220}
               height={64}
-              className="hover:opacity-90 transition"
+              className="hover:opacity-90 transition w-[220px] h-auto"
             />
           </a>
 
@@ -50,10 +52,11 @@ const HeroSection = () => {
             className="flex items-center gap-2 border border-[#e6a54c] px-6 py-3 rounded-md text-[16px] font-semibold hover:bg-[#e6a54c] hover:text-black transition"
           >
             <Image
-              src="/whitesteam.png"
+              src="/images/whitesteam.png"
               alt="Steam"
               width={24}
               height={24}
+              className="w-[24px] h-auto"
             />
             Steam
           </Link>
