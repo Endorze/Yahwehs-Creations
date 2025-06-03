@@ -1,4 +1,5 @@
 import H2Title from "./components/H2Title/H2Title";
+import H3Title from "./components/H3Title/H3Title";
 import PlayButton from "./components/PlayButton/PlayButton";
 import SupporterPack from "./components/SupporterPack";
 
@@ -13,6 +14,7 @@ export default function Home() {
           Hello Tailwind! And goodmorning Vietnam!
         </h1>
         <H2Title text="Test title" size="72px"/>
+        <H3Title text="Test title" size="32px"/>
         <Button />
       </div>
 
