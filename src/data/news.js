@@ -5,7 +5,7 @@ export const newsItems = [
     title: "Supporter Pack Released",
     date: "May 31, 2025",
     type: "NEWS",
-    image: "/images/newsarticle/",
+    image: "/images/newsarticle/gyro.png",
     description: `
              The highly anticipated Supporter Pack is finally here! Packed with exclusive content, cosmetics, and lore items, it's a must-have for every fan of Yahweh's Creations.
                This release includes three new outfits, a unique mount skin, and access to a hidden journal containing prelude lore leading up to the main storyline. It's our way of saying thank you to the early supporters.
