@@ -1,9 +1,7 @@
-'use client';
-
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Home() {
+export default function OurCreations() {
   return (
     <section className="relative h-screen w-full overflow-hidden bg-[#1B1B1B]">
       {/* Background Image */}
