@@ -51,23 +51,37 @@ const HeroSection = () => {
           </a>
         </div>
 
-        <div className="ml-4">
+        <div className="relative w-full max-w-[1280px] h-[110px] ml-4">
+          <Image
+            src="/images/effects/shadow.png"
+            alt="Shadow"
+            width={1280}
+            height={110}
+            className="absolute bottom-0 left-0 w-full h-[110px] object-cover"
+            priority
+          />
+
           <Link
             href="https://store.steampowered.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-5 px-6 py-4 rounded-md text-2xl font-semibold hover:bg-[#e6a54c] hover:text-black transition"
+            className="absolute top-1/2 left-20 transform -translate-y-1/2 w-[94px] h-[94px] flex items-center justify-center rounded-md text-2xl font-semibold hover:bg-[#e6a54c] hover:text-black transition"
           >
-            <div className="relative w-[94px] h-[94px] flex-shrink-0">
-              <Image
-                src="/images/whitesteam.png"
-                alt="Steam"
-                fill
-                className="object-contain"
-                priority
-              />
-            </div>
+            <Image
+              src="/images/whitesteam.png"
+              alt="Steam"
+              fill
+              className="object-contain"
+              priority
+            />
           </Link>
+
+          <p
+            className="absolute top-1/2 left-[180px] transform -translate-y-1/2 text-white text-base max-w-lg drop-shadow-md"
+            style={{ fontFamily: "'Germania One', cursive" }}
+          >
+            Can you solve the mystery behind Yahweh's Creations?
+          </p>
         </div>
 
         <div className="h-20" />
@@ -75,5 +89,5 @@ const HeroSection = () => {
     </div>
   );
 };
-
+ 
 export default HeroSection;
