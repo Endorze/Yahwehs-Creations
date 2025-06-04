@@ -9,7 +9,7 @@ export default function Home() {
         <h1 className="text-4xl font-bold text-blue-600">
           Hello Tailwind! And goodmorning Vietnam!
         </h1>
-        <Button />
+        <Button text="Read more" href="/" />
       </div>
     </>
   );

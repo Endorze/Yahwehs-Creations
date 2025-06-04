@@ -7,7 +7,7 @@ interface ButtonProps {
 
 const Button = (props: ButtonProps) => {
   // This are default values for the button
-  const { text = "Read more", href = "/" } = props;
+  const { text, href } = props;
   return (
     <Link
       href={href}
