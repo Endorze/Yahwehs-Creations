@@ -1,4 +1,4 @@
-type SupporterPackProp2 = {
+export type SupporterPackProp2 = {
    overview?: string
     feature?: string
 }[];
