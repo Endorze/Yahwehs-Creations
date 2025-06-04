@@ -1,4 +1,7 @@
-
+type SupporterPackProp2 = {
+   overview?: string
+    feature?: string
+}[];
 export const newsItems = [
   {
     id: 1,
@@ -110,4 +113,39 @@ export const newsItems = [
               Top three used weapons: Shadowblade, Ember Bow, and Warhammer. Most deaths occurred in the Serpent Caves. Average play session lasted 2.6 hours. Thanks for helping shape the game!
     `
   }
+];
+export const supportPackInfo: SupporterPackProp2 = [
+  {
+    overview: `
+      Support *Yahweh's Creations* on Kickstarter to bring a unique, handcrafted game to life—filled with passion, creativity, and heart.
+
+      Your backing directly helps improve visuals, sound, and storytelling, all crafted by a dedicated indie team. As a supporter, you'll receive exclusive rewards, early access, and a chance to be part of the game's legacy.
+
+      Help us turn vision into reality! This isn't just a game—it's a spiritual journey forged in pixel and prayer.
+
+      With your support, we can expand the game's universe, add new playable relics, deepen the branching narrative paths, and enhance accessibility for all players. Every pledge, no matter the size, brings us one step closer to delivering an unforgettable experience.
+
+      As a backer, your name may be etched into the in-game scriptures, your choices immortalized in lore.
+
+      Become a part of something eternal—where your faith fuels creation itself.
+    `.trim(),
+  },
+  {
+    feature: `
+      In *Yahweh's Creations*, every corridor echoes with forgotten prayers, every enemy is a symbol of a twisted past, and every choice you make carves deeper into fate's flesh.
+
+      As the **Bishop of Yahweh**, you wield divine relics and forbidden knowledge to purge the catacombs of false gods and ancient sins.
+
+      **The game features:**
+      - **Handcrafted Environments** – Explore cursed catacombs, sanctified ruins, and corrupted altars, built with intricate detail.
+      - **Dynamic Combat** – Master divine weapons, time-bending blessings, and eldritch powers.
+      - **Deep Lore** – Uncover scriptures, relics, and heretical texts revealing the tragic history of Yahweh's fall.
+      - **Unique Art & Sound** – A haunting visual palette and original soundtrack to immerse you in sacred dread.
+      - **Exclusive Supporter Content** – Gain access to rare relics, behind-the-scenes lore, and a personal mark etched into the game world.
+
+      This is more than a game—it's a divine trial.
+
+      **Will you rise... or be forsaken?**
+    `.trim(),
+  },
 ];
