@@ -1,20 +1,13 @@
 "use client";
 import { useState } from "react";
-import { Germania_One } from "next/font/google";
-import { supportPackInfo } from "../../../data/news";
+import { supportPackInfo, SupporterPackProp2 } from "../../../data/news";
 
 type SupporterPackProp = {
     image: string
     text: string
 }
 
-const GermaniaFont = Germania_One({
-    subsets: ['latin'],
-    weight: "400",
-    display: 'swap',
-});
-
-const YahwehInfor = supportPackInfo
+const YahwehInfor:SupporterPackProp2 = supportPackInfo
 
 const SupporterPack = () => {
     const [active, setActive] = useState<"overview" | "feature">("overview");
@@ -29,7 +22,7 @@ const SupporterPack = () => {
 
     return (
         <>
-            <div className={`w-full flex flex-col items-end bg-[url('/images/sectionbackgrounds/catacombs.png')] bg-cover bg-center ${GermaniaFont.className}`}>
+            <div className="w-full flex flex-col items-end bg-[url('/images/sectionbackgrounds/catacombs.png')] bg-cover bg-center">
                 <div className="sm:w-1/2 flex flex-col justify-center items-center bg-black text-base m-[30px] p-[20px] sm:m-0 sm:p-0 lg:m-0">
 
                     <PackInformation image="yahwehsupport_with_orange_glow.png" text="Yawhweh support Image" />
@@ -52,30 +45,25 @@ const SupporterPack = () => {
                     </div>
 
                     <div className="text-white sm:p-5 align-left">
-                        {active === "overview" ? (
-                            <>
-                                <h1 className="pt-5 pb-5 font-bold">THE BISHOP OF YAHWEH DEMANDS A SACRIFICE</h1>
+                        <h1 className="pt-5 pb-5 font-bold">
+                            {active === "overview"
+                                ? "THE BISHOP OF YAHWEH DEMANDS A SACRIFICE"
+                                : "ENTER THE CATACOMBS OF FAITH AND FIRE"}
+                        </h1>
 
-                                <div className="text-[#808080]">
-                                    <h3 className="pb-5">“Drink from this Chalice and you shall obtain Godhood”</h3>
+                        <div className="text-[#808080]">
+                            <h3 className="pb-5">
+                                {active === "overview"
+                                    ? "“Drink from this Chalice and you shall obtain Godhood”"
+                                    : "“Wield the Word. Cleanse the Unworthy. Become Divine.”"}
+                            </h3>
 
-                                    {YahwehInfor.map((item, index) => <div key={index}>{item.overview}</div>)}
-
+                            {YahwehInfor.filter(item => item[active]).map((item, index) => (
+                                <div key={index} className="mb-4 leading-relaxed">
+                                    {item[active]}
                                 </div>
-                            </>
-
-                        ) :
-                            <>
-                                <h1 className="pt-5 pb-5 font-bold">ENTER THE CATACOMBS OF FAITH AND FIRE</h1>
-
-                                <div className="text-[#808080]">
-                                    <h3 className="pb-5">“Wield the Word. Cleanse the Unworthy. Become Divine.”</h3>
-
-                                    {YahwehInfor.map((item, index) => <div key={index}>{item.feature}</div>)}
-
-                                </div>
-                            </>
-                        }
+                            ))}
+                        </div>
                     </div>
 
                 </div>
@@ -88,7 +76,5 @@ const SupporterPack = () => {
         </>
     );
 }
-
-
 
 export default SupporterPack
