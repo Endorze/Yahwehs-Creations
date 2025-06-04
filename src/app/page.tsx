@@ -7,10 +7,10 @@ import SupporterPack from "./components/ 006-Supporterpack";
 export default function Home() {
   return (
     <>
-      <div className="flex flex-col min-h-screen items-center justify-center bg-gray-100">
+      <div className="flex flex-col min-h-screen items-center justify-center">
         <PlayButton />
         <h1 className="text-4xl font-bold text-blue-600">
-          Hello Tailwind! And goodmorning Vietnam
+          Hello Yahweh's Creations fans
         </h1>
         <H2Title text="Test title" size="72px"/>
         <H3Title text="Test title" size="32px"/>
