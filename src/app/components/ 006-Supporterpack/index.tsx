@@ -27,7 +27,8 @@ const SupporterPack = () => {
     return (
         <>
             <div className={`w-full flex flex-col items-end bg-[url('/images/sectionbackgrounds/catacombs.png')] bg-cover bg-center ${GermaniaFont.className}`}>
-                <div className="max-w-lg flex flex-col bg-black text-base m-[30px] p-[20px] sm:m-0 sm:p-0 lg:m-0">
+               <div className="sm:w-1/2 flex flex-col bg-black text-base m-[30px] p-[20px] sm:m-0 sm:p-0 lg:m-0">
+
                     <PackInformation image="yahwehsupport_with_orange_glow.png" text="Yawhweh support Image" />
 
                     <div className="relative flex items-center justify-center">
