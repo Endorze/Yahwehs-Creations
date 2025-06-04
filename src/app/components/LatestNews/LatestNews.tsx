@@ -60,7 +60,6 @@ export default function LatestNews(): JSX.Element {
           </button>
         </div>
 
-        {/* News Grid */}
         <div className="flex flex-col gap-4">
           <div
             onClick={() => handleNewsClick(featuredNews.id)}
@@ -95,7 +94,6 @@ export default function LatestNews(): JSX.Element {
             </div>
           </div>
 
-          {/* Secondary News Cards */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {secondaryNews.map((news: NewsItem) => (
               <div
