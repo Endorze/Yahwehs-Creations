@@ -28,6 +28,7 @@ const Header = () => {
     }
   ];
   const borderLeft = "border-l-2 border-white";
+  const activeClass = "underline underline-offset-8 decoration-[#EABB00] decoration-2";
   return (
     <div className="flex justify-between items-center bg-black text-white py-4  px-4 md:px-40 relative">
       <div>
@@ -39,15 +40,15 @@ const Header = () => {
           className="min-w-[100px] h-auto"
         />
       </div>
-      <nav className={`hidden md:flex gap-8 ${borderLeft} pl-8`}>
+      <nav className={`hidden md:flex gap-8 ${borderLeft} pl-8 `}>
         {navItems.map((item) => (
           <Link
             key={item.href}
             href={item.href}
-            className={`py-1  ${
+            className={`py-1 ${
               pathname === item.href
-                ? "underline underline-offset-8 decoration-[#EABB00] decoration-2"
-                : ""
+                ? activeClass
+                : "transition-all duration-300 hover:underline hover:underline-offset-8 hover:decoration-[#EABB00] hover:decoration-2"
             }`}
           >
             {item.label}
