@@ -1,8 +1,8 @@
 import Link from "next/link";
 
 interface ButtonProps {
-  text?: string;
-  href?: string;
+  text: string;
+  href: string;
 }
 
 const Button = (props: ButtonProps) => {
