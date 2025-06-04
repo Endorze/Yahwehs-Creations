@@ -27,7 +27,7 @@ const SupporterPack = () => {
     return (
         <>
             <div className={`w-full flex flex-col items-end bg-[url('/images/sectionbackgrounds/catacombs.png')] bg-cover bg-center ${GermaniaFont.className}`}>
-               <div className="sm:w-1/2 flex flex-col bg-black text-base m-[30px] p-[20px] sm:m-0 sm:p-0 lg:m-0">
+                <div className="sm:w-1/2 flex flex-col justify-center items-center bg-black text-base m-[30px] p-[20px] sm:m-0 sm:p-0 lg:m-0">
 
                     <PackInformation image="yahwehsupport_with_orange_glow.png" text="Yawhweh support Image" />
 
@@ -48,7 +48,7 @@ const SupporterPack = () => {
                         </div>
                     </div>
 
-                    <div className="text-white sm:p-5 sm:text-center">
+                    <div className="text-white sm:p-5 align-left">
                         {active === "overview" && (
                             <div>
                                 <h1 className="pt-5 pb-5 font-bold">THE BISHOP OF YAHWEH DEMANDS A SACRIFICE</h1>
@@ -100,9 +100,10 @@ const SupporterPack = () => {
                     </div>
 
                 </div>
-                <div className="flex items-center justify-center w-full">
-                    <img src="/images/effects/gradientline.png" alt="helo" />
+                <div className="flex items-center justify-center w-full -mt-10 p-[3px]">
+                    <img src="/images/effects/gradientline.png" alt="Gradient Line" />
                 </div>
+
             </div>
 
         </>
