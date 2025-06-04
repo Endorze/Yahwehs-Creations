@@ -19,7 +19,6 @@ export default function LatestNews(): JSX.Element {
   const router = useRouter();
 
   useEffect(() => {
-    // Sort news items by date (descending) and take first 4
     const sortedNews = [...newsItems]
       .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
       .slice(0, 4);
@@ -63,7 +62,6 @@ export default function LatestNews(): JSX.Element {
 
         {/* News Grid */}
         <div className="flex flex-col gap-4">
-          {/* Featured News Card */}
           <div
             onClick={() => handleNewsClick(featuredNews.id)}
             className="relative w-full h-64 md:h-80 rounded-lg overflow-hidden cursor-pointer group"
