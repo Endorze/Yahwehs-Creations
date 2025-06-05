@@ -27,7 +27,7 @@ const sections = [
 
 export default function CoreValues() {
   return (
-    <section className="bg-black py-16 px-4 sm:px-6 lg:px-8 text-white">
+    <section className="bg-black py-16 px-4 sm:px-6 lg:px-8 text-white relative">
       <div className="max-w-7xl mx-auto grid gap-12 md:grid-cols-3 text-center">
         {sections.map(({ title, description, image, href }) => (
           <div key={title} className="flex flex-col items-center">
@@ -47,32 +47,33 @@ export default function CoreValues() {
             <p className="text-sm text-gray-300 mb-4 px-2">{description}</p>
 
             {/* Custom Button */}
-            <Link href={href}>
-              <a className="relative w-40 h-10 mt-2 group">
-                <Image
-                  src="/images/orangebutton.png"
-                  alt="Read More"
-                  layout="fill"
-                  objectFit="contain"
-                />
-                <span className="absolute inset-0 flex items-center justify-center text-white font-semibold text-sm group-hover:scale-105 transition">
-                  READ MORE
-                </span>
-              </a>
-            </Link>
-
-            {/* Gradient Line */}
-            <div className="w-full mt-4">
+            <Link
+              href={href}
+              className="relative w-40 h-10 mt-2 group inline-block"
+            >
               <Image
-                src="/images/effects/gradientline.png"
-                alt="Gradient Line"
-                width={160}
-                height={8}
-                className="mx-auto"
+                src="/images/orangebutton.png"
+                alt="Read More"
+                fill
+                className="object-contain"
               />
-            </div>
+              <span className="absolute inset-0 flex items-center justify-center text-white font-semibold text-sm group-hover:scale-105 transition">
+                READ MORE
+              </span>
+            </Link>
           </div>
         ))}
+      </div>
+
+      {/* Single Gradient Line at Bottom */}
+      <div className="mt-32 flex justify-center">
+        <Image
+          src="/images/effects/gradientline.png"
+          alt="Gradient Line"
+          width={300}
+          height={8}
+          className="mx-auto"
+        />
       </div>
     </section>
   );
