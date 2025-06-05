@@ -16,41 +16,43 @@ export default function HeroSection() {
         }}
       />
 
-      <div className="relative z-10 flex flex-col items-center text-center px-4 mt-10">
+      <div className="relative z-10 flex flex-col items-center sm:items-start text-center sm:text-left px-4 mt-10 max-w-[720px]">
         <img
           src="/images/yahwehhero.png"
           alt="Yahweh Hero"
-          className="w-[180px] sm:w-[250px] md:w-[320px] lg:w-[409px]"
+          className="mx-auto sm:mx-0 w-[180px] sm:w-[250px] md:w-[320px] lg:w-[409px]"
         />
 
         <p
-          className="mt-3 text-white font-Germania_One text-[18px] sm:text-[20px] md:text-[22px] lg:text-[24px] leading-tight max-w-[720px]"
+          className="mt-3 text-white font-Germania_One text-[18px] sm:text-[20px] md:text-[22px] lg:text-[24px] leading-tight"
           style={{ textShadow: '0px 4px 4px rgba(0,0,0,0.25)' }}
         >
           {heroDescription}
         </p>
 
-        <a
-          href="https://yourgame.itch.io"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="relative mt-4 w-[140px] h-[50px] flex items-center justify-center hover:scale-105 transition-transform z-20"
-        >
-          <img
-            src="/images/playfreebtn.png"
-            alt="Play Free Button"
-            className="w-full h-auto"
-          />
-          <img
-            src="/images/image.png"
-            alt="Download Icon"
-            className="absolute w-[24px] h-[24px] right-3"
-          />
-        </a>
+        <div className="w-full flex justify-center sm:justify-start mt-4">
+          <a
+            href="https://yourgame.itch.io"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="relative w-[140px] h-[50px] flex items-center justify-center hover:scale-105 transition-transform z-20"
+          >
+            <img
+              src="/images/playfreebtn.png"
+              alt="Play Free Button"
+              className="w-full h-auto"
+            />
+            <img
+              src="/images/image.png"
+              alt="Download Icon"
+              className="absolute w-[24px] h-[24px] right-3"
+            />
+          </a>
+        </div>
       </div>
 
       <div
-        className="absolute z-20 top-[570px] left-1/2 transform -translate-x-1/2 w-full max-w-[900px] h-auto flex flex-col sm:flex-row items-center sm:justify-between px-4 sm:px-16 py-4 sm:py-0"
+        className="absolute z-20 top-[570px] left-1/2 transform -translate-x-1/2 w-full max-w-[900px] min-w-[300px] h-[116px] flex flex-row items-center justify-between gap-4 px-4 sm:px-16 py-4 sm:py-0"
         style={{
           backgroundImage: "url('/images/effects/shadow.png')",
           backgroundSize: 'cover',
@@ -58,7 +60,7 @@ export default function HeroSection() {
           backgroundPosition: 'center',
         }}
       >
-        <div className="mb-2 sm:mb-0 sm:ml-6">
+        <div className="ml-2 flex-shrink-0">
           <img
             src="/images/whitesteam.png"
             alt="Steam"
@@ -66,14 +68,12 @@ export default function HeroSection() {
           />
         </div>
 
-        <div className="sm:flex-1 flex justify-center sm:justify-end sm:pr-4 text-center sm:text-right">
+        <div className="flex-1 flex justify-end text-right">
           <p
-            className="text-white font-Germania_One"
+            className="text-white font-Germania_One text-sm sm:text-base leading-snug"
             style={{
-              fontSize: '18px',
-              lineHeight: '60px',
-              textShadow: '0px 4px 4px rgba(0,0,0,0.8)',
-              maxWidth: '420px',
+              textShadow: '0px 4px 4px rgba(0,0,0,0.2)',
+              maxWidth: '300px',
             }}
           >
             Can you solve the mystery behind <br /> Yahweh’s Creations?
