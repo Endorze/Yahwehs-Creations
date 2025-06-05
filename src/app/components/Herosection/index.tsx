@@ -4,7 +4,7 @@ import { heroDescription } from '@/app/news';
 
 export default function HeroSection() {
   return (
-    <section className="relative w-full max-w-[1440px] mx-auto overflow-hidden mt-10 bg-[#504848] min-h-[834px] px-4 sm:px-6 lg:px-12 flex flex-col items-center justify-start">
+    <section className="relative w-full min-h-screen max-w-[1440px] mx-auto overflow-hidden bg-[#504848] px-4 sm:px-6 lg:px-12 flex flex-col items-center justify-start">
       
       <div
         className="absolute top-0 left-0 w-full h-full z-0"
@@ -16,7 +16,7 @@ export default function HeroSection() {
         }}
       />
 
-      <div className="relative z-10 flex flex-col items-center sm:items-start text-center sm:text-left px-4 mt-10 max-w-[720px]">
+      <div className="relative z-10 flex flex-col items-center sm:items-start text-center sm:text-left px-4 mt-6 max-w-[720px]">
         <img
           src="/images/yahwehhero.png"
           alt="Yahweh Hero"
@@ -24,7 +24,7 @@ export default function HeroSection() {
         />
 
         <p
-          className="mt-3 text-white font-Germania_One text-[18px] sm:text-[20px] md:text-[22px] lg:text-[24px] leading-tight"
+          className="mt-[-30px] text-white font-Germania_One text-[18px] sm:text-[20px] md:text-[20px] lg:text-[24px] leading-tight"
           style={{ textShadow: '0px 4px 4px rgba(0,0,0,0.25)' }}
         >
           {heroDescription}
@@ -52,7 +52,7 @@ export default function HeroSection() {
       </div>
 
       <div
-        className="absolute z-20 top-[570px] left-1/2 transform -translate-x-1/2 w-full max-w-[900px] min-w-[300px] h-[116px] flex flex-row items-center justify-between gap-4 px-4 sm:px-16 py-4 sm:py-0"
+        className="absolute z-20 top-[510px] left-1/2 transform -translate-x-1/2 w-full max-w-[900px] min-w-[300px] h-[116px] flex flex-row items-center justify-between gap-4 px-4 sm:px-16 py-4 sm:py-0"
         style={{
           backgroundImage: "url('/images/effects/shadow.png')",
           backgroundSize: 'cover',
@@ -64,7 +64,7 @@ export default function HeroSection() {
           <img
             src="/images/whitesteam.png"
             alt="Steam"
-            className="w-[100px] sm:w-[120px] h-auto"
+            className="w-[200px] sm:w-[160px] h-auto"
           />
         </div>
 
