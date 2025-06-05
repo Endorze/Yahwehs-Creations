@@ -1,6 +1,7 @@
 import H2Title from "./components/H2Title/H2Title";
 import H3Title from "./components/H3Title/H3Title";
 import SupporterPack from "./components/ 006-Supporterpack";
+import PlaytestingSection from "./components/PlaytestingSection/PlaytestingSection";
 
 export default function Home() {
   return (
@@ -12,7 +13,7 @@ export default function Home() {
         <H2Title text="Test title" size="72px"/>
         <H3Title text="Test title" size="32px"/>
       </div>
-
+      <PlaytestingSection />
       <SupporterPack />
     </>
   );
