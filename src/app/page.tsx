@@ -2,16 +2,13 @@ import H2Title from "./components/H2Title/H2Title";
 import H3Title from "./components/H3Title/H3Title";
 import SupporterPack from "./components/ 006-Supporterpack";
 import PlaytestingSection from "./components/PlaytestingSection/PlaytestingSection";
+import BlogHeroSection from "./components/BlogHeroSection/BlogHeroSection";
 
 export default function Home() {
   return (
     <>
-      <div className="flex flex-col min-h-screen items-center justify-center">
-        <h1 className="text-4xl font-bold text-blue-600">
-          Hello Yahweh's Creations fans
-        </h1>
-        <H2Title text="Test title" size="72px"/>
-        <H3Title text="Test title" size="32px"/>
+      <div className="flex flex-col">
+      <BlogHeroSection />
       </div>
       <PlaytestingSection />
       <SupporterPack />
