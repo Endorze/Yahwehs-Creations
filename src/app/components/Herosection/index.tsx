@@ -1,9 +1,10 @@
 'use client';
 import React from 'react';
+import { heroDescription } from '@/app/news';
 
 export default function HeroSection() {
   return (
-    <section className="relative w-full max-w-[1440px] mx-auto overflow-hidden mt-20 bg-[#504848] min-h-[834px] px-4 sm:px-6 lg:px-12">
+    <section className="relative w-full max-w-[1440px] mx-auto overflow-hidden mt-10 bg-[#504848] min-h-[834px] px-4 sm:px-6 lg:px-12 flex flex-col items-center justify-start">
       
       <div
         className="absolute top-0 left-0 w-full h-full z-0"
@@ -15,76 +16,69 @@ export default function HeroSection() {
         }}
       />
 
-      <img
-        src="/images/yahwehhero.png"
-        alt="Yahweh Hero"
-        className="absolute z-10 w-[180px] sm:w-[250px] md:w-[320px] lg:w-[409px] top-[60px] left-[20px] sm:left-[60px] lg:left-[181px]"
-      />
-
-      <p
-        className="absolute z-8 text-white font-Germania_One text-[16px] sm:text-[10px] md:text-[20px] lg:text-[24px] leading-tight w-[90%] sm:w-[600px] md:w-[700px] lg:w-[772px] top-[340px] sm:top-[360px] lg:top-[380px] left-[20px] sm:left-[80px] lg:left-[225px]"
-        style={{ textShadow: '0px 4px 4px rgba(0,0,0,0.25)' }}
-      >
-        A brutal dark fantasy FPS where you, fueled by vengeance and divine
-        purpose, storm a cursed cathedral to stop a mad Archbishop from
-        ascending to godhood. Face twisted zealots, uncover sacred relics, and
-        decide: restore your god… or become Him.
-      </p>
-
-      <a
-        href="/downloads/demo.png"
-        download
-        className="absolute z-20"
-        style={{ top: '450px', left: '60px', width: '120px', height: '102px' }}
-      >
-        <div className="relative w-full h-full hover:scale-105 transition-transform">
-          <img
-            src="/images/playfreebtn.png"
-            alt="Play Free Button"
-            className="w-full h-full object-contain"
-          />
-          <img
-            src="/images/image.png"
-            alt="Play Icon"
-            className="absolute top-1/2 left-1/2 transform -translate-x-[2%] -translate-y-1/2 w-[30px] h-[30px]"
-          />
-        </div>
-      </a>
-
-      <img
-        src="/images/effects/shadow.png"
-        alt="Shadow Background"
-        className="absolute z-8"
-        style={{
-          width: '1600px',
-          height: '130px',
-          top: '640px',
-          left: '-110px',
-        }}
-      />
-
-      <div
-        className="absolute z-60 flex items-center justify-between w-full px-12"
-        style={{
-          top: '650px',
-          left: 0,
-        }}
-      >
+      <div className="relative z-10 flex flex-col items-center text-center px-4 mt-10">
         <img
-          src="/images/whitesteam.png"
-          alt="Steam"
-          className="w-[90px] md:w-[200px] h-auto"
+          src="/images/yahwehhero.png"
+          alt="Yahweh Hero"
+          className="w-[180px] sm:w-[250px] md:w-[320px] lg:w-[409px]"
         />
 
         <p
-          className="text-white font-Germania_One text-[8px] sm:text-[8px] md:text-[18px] leading-tight text-right"
-          style={{
-            textShadow: '0px 2px 2px rgba(0,0,0,0.15)',
-            width: '250px',
-          }}
+          className="mt-3 text-white font-Germania_One text-[18px] sm:text-[20px] md:text-[22px] lg:text-[24px] leading-tight max-w-[720px]"
+          style={{ textShadow: '0px 4px 4px rgba(0,0,0,0.25)' }}
         >
-          Can you solve the mystery behind <br /> Yahweh’s Creations?
+          {heroDescription}
         </p>
+
+        <a
+          href="https://yourgame.itch.io"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="relative mt-4 w-[140px] h-[50px] flex items-center justify-center hover:scale-105 transition-transform z-20"
+        >
+          <img
+            src="/images/playfreebtn.png"
+            alt="Play Free Button"
+            className="w-full h-auto"
+          />
+          <img
+            src="/images/image.png"
+            alt="Download Icon"
+            className="absolute w-[24px] h-[24px] right-3"
+          />
+        </a>
+      </div>
+
+      <div
+        className="absolute z-20 top-[570px] left-1/2 transform -translate-x-1/2 w-full max-w-[900px] h-auto flex flex-col sm:flex-row items-center sm:justify-between px-4 sm:px-16 py-4 sm:py-0"
+        style={{
+          backgroundImage: "url('/images/effects/shadow.png')",
+          backgroundSize: 'cover',
+          backgroundRepeat: 'no-repeat',
+          backgroundPosition: 'center',
+        }}
+      >
+        <div className="mb-2 sm:mb-0 sm:ml-6">
+          <img
+            src="/images/whitesteam.png"
+            alt="Steam"
+            className="w-[100px] sm:w-[120px] h-auto"
+          />
+        </div>
+
+        <div className="sm:flex-1 flex justify-center sm:justify-end sm:pr-4 text-center sm:text-right">
+          <p
+            className="text-white font-Germania_One"
+            style={{
+              fontSize: '18px',
+              lineHeight: '60px',
+              textShadow: '0px 4px 4px rgba(0,0,0,0.8)',
+              maxWidth: '420px',
+            }}
+          >
+            Can you solve the mystery behind <br /> Yahweh’s Creations?
+          </p>
+        </div>
       </div>
     </section>
   );
