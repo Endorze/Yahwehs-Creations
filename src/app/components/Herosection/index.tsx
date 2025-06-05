@@ -36,9 +36,9 @@ export default function HeroSection() {
         target="_blank"
         rel="noopener noreferrer"
         className="absolute z-20"
-        style={{ top: '470px', left: '70px', width: '150px', height: '110px' }}
+        style={{ top: '470px', left: '70px', width: '140px', height: '106px' }}
       >
-        <div className="relative w-full h-full flex items-center justify-center hover:scale-105 transition-transform">
+        <div className="relative w-full h-full flex items-center justify-center hover:scale-104 transition-transform">
           <img
             src="/images/playfreebtn.png"
             alt="Play Free Button"
@@ -47,7 +47,7 @@ export default function HeroSection() {
           <img
             src="/images/image.png"
             alt="Play Icon"
-            className="absolute w-[40px] h-[40px]"
+            className="absolute w-[50px] h-[50px]"
           />
         </div>
       </a>
@@ -78,7 +78,7 @@ export default function HeroSection() {
         />
 
         <p
-          className="text-white font-Germania_One text-[10px] sm:text-[10px] md:text-[20px] leading-tight text-right"
+          className="text-white font-Germania_One text-[8px] sm:text-[8px] md:text-[18px] leading-tight text-right"
           style={{
             textShadow: '0px 2px 2px rgba(0,0,0,0.15)',
             width: '250px',
