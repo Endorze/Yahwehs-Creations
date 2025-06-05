@@ -1,13 +1,13 @@
 import Link from "next/link";
 
 interface ButtonProps {
-  text?: string;
-  href?: string;
+  text: string;
+  href: string;
 }
 
 const Button = (props: ButtonProps) => {
   // This are default values for the button
-  const { text = "Read more", href = "/" } = props;
+  const { text, href } = props;
   return (
     <Link
       href={href}
