@@ -32,22 +32,21 @@ export default function HeroSection() {
       </p>
 
       <a
-        href="https://yourgame.itch.io"
-        target="_blank"
-        rel="noopener noreferrer"
+        href="/downloads/demo.png"
+        download
         className="absolute z-20"
-        style={{ top: '470px', left: '70px', width: '140px', height: '106px' }}
+        style={{ top: '450px', left: '60px', width: '120px', height: '102px' }}
       >
-        <div className="relative w-full h-full flex items-center justify-center hover:scale-104 transition-transform">
+        <div className="relative w-full h-full hover:scale-105 transition-transform">
           <img
             src="/images/playfreebtn.png"
             alt="Play Free Button"
-            className="w-full h-auto"
+            className="w-full h-full object-contain"
           />
           <img
             src="/images/image.png"
             alt="Play Icon"
-            className="absolute w-[50px] h-[50px]"
+            className="absolute top-1/2 left-1/2 transform -translate-x-[2%] -translate-y-1/2 w-[30px] h-[30px]"
           />
         </div>
       </a>
