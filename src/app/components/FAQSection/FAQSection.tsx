@@ -4,7 +4,7 @@ import H3Title from "../H3Title/H3Title"
 const FAQSection = () => {
     return (
         <section>
-            <div className="hidden lg:block p-40 bg-black relative">
+            <div className="hidden lg:block p-40 relative">
                 <H2Title text="FREQUENTLY ASKED QUESTIONS" size="48px" />
                 <div className="flex flex-row gap-12">
                     <div className="flex-1">
@@ -42,7 +42,7 @@ const FAQSection = () => {
 
             {/*Mobil sektion */}
 
-            <div className="flex flex-col p-6 bg-black relative justify-center items-center lg:hidden">
+            <div className="flex flex-col p-6 relative justify-center items-center lg:hidden">
                 <div className="flex flex-col gap-12 max-w-[400] pb-12">
                 <H2Title text="FREQUENTLY ASKED QUESTIONS" size="32px" />
                     <div>
