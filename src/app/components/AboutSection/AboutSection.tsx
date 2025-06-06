@@ -28,8 +28,7 @@ const sections = [
 export default function AboutSection() {
   return (
     <section className="bg-black py-16 px-4 sm:px-6 lg:px-8 text-white relative">
-   <div className="w-full max-w-screen-xl mx-auto grid gap-12 md:grid-cols-3 text-center px-7">
-
+      <div className="w-full max-w-screen-xl mx-auto grid gap-12 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 text-center">
         {sections.map(({ title, description, image, href }) => (
           <div
             key={title}
@@ -38,9 +37,9 @@ export default function AboutSection() {
             <Image
               src={image}
               alt={title}
-              width={100}
-              height={100}
-              className="mb-4 object-contain"
+              width={80}
+              height={80}
+              className="mb-4 object-contain sm:w-[100px] sm:h-[100px]"
             />
 
             <h3
@@ -56,7 +55,7 @@ export default function AboutSection() {
                 fontFamily: "'Germania One', cursive",
                 color: "#808080",
                 lineHeight: "1.25rem",
-                height: "5rem", 
+                height: "5rem",
                 display: "-webkit-box",
                 WebkitLineClamp: 4,
                 WebkitBoxOrient: "vertical",
@@ -69,7 +68,7 @@ export default function AboutSection() {
 
             <Link
               href={href}
-              className="relative w-40 h-10 mt-2 group inline-block"
+              className="relative w-32 sm:w-40 h-10 mt-2 group inline-block"
             >
               <Image
                 src="/images/orangebutton.png"
@@ -88,17 +87,19 @@ export default function AboutSection() {
           </div>
         ))}
       </div>
-       {/* Gradient Line at Bottom */}
 
+      {/* Gradient Line at Bottom */}
       <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-full flex justify-center px-4 sm:px-0">
-  <Image
-    src="/images/effects/gradientline.png"
-    alt="Gradient Line"
-    width={320}
-    height={6}
-    className="h-auto w-full max-w-[365px] sm:max-w-[600px] md:max-w-[700px]"
-    />
-    </div>
+        <Image
+          src="/images/effects/gradientline.png"
+          alt="Gradient Line"
+          width={320}
+          height={6}
+          className="h-auto w-full max-w-[365px] sm:max-w-[600px] md:max-w-[700px]"
+        />
+      </div>
     </section>
   );
 }
+
+ 
