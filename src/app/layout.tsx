@@ -4,6 +4,7 @@ import { IM_Fell_English_SC, Germania_One } from "next/font/google";
 import "./globals.css";
 import HeroSection from "./components/HeroSection";
 import Header from "./components/Header";
+import Footer from "./components/Footer/Footer";
 
 
 const geistSans = Geist({
@@ -47,6 +48,7 @@ export default function RootLayout({
         <Header />
         {children}
         <HeroSection />
+        <Footer />
       </body>
     </html>
   );
