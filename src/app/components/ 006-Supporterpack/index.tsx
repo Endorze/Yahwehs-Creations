@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import { supportPackInfo, SupporterPackProp2 } from "../../../data/news";
+import H2Title from "../H2Title/H2Title";
 
 type SupporterPackProp = {
     image: string
@@ -51,12 +52,10 @@ const SupporterPack = () => {
                     </h1>
 
                     <div className="text-[#808080]">
-                        <h3 className="pb-5">
-                            {active === "overview"
-                                ? "“Drink from this Chalice and you shall obtain Godhood”"
-                                : "“Wield the Word. Cleanse the Unworthy. Become Divine.”"}
-                        </h3>
-
+                        <div className="pb-5"><H2Title text={active === "overview"
+                            ? "'Drink from this Chalice and you shall obtain Godhood'"
+                            : "'Wield the Word. Cleanse the Unworthy. Become Divine.'"} size="24px" /></div>
+                    
                         {YahwehInfor.filter(item => item[active]).map((item, index) => (
                             <div key={index} className="mb-4 leading-relaxed">
                                 {item[active]}
