@@ -1,5 +1,5 @@
-import AboutSection from '../components/AboutSection/AboutSection';
 
+import AboutSection from '../components/AboutSection/AboutSection';
 export default function About() {
   return (
     <main className="min-h-screen p-10 bg-gray-100">

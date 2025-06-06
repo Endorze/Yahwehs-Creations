@@ -34,9 +34,6 @@ export default function AboutSection() {
           <div
             key={title}
             className="flex flex-col items-center w-full max-w-[300px] mx-auto"
-             
-
-            
           >
             <Image
               src={image}
@@ -58,9 +55,8 @@ export default function AboutSection() {
               style={{
                 fontFamily: "'Germania One', cursive",
                 color: "#808080",
-                
                 lineHeight: "1.25rem",
-                height: "5rem", // 4 lines × 1.25rem
+                height: "5rem", 
                 display: "-webkit-box",
                 WebkitLineClamp: 4,
                 WebkitBoxOrient: "vertical",
