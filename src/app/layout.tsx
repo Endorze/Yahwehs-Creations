@@ -47,6 +47,7 @@ export default function RootLayout({
       <body className="bg-[#1B1B1B] text-white">
         <Header />
         {children}
+
         <HeroSection />
         <Footer />
       </body>

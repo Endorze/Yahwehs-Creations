@@ -1,8 +1,20 @@
 export type SupporterPackProp2 = {
-   overview?: string
-    feature?: string
+  overview?: string
+  feature?: string
 }[];
-export const newsItems = [
+
+export type dataProp = {
+  id: number
+  image: string
+  description: string
+  title: string
+  date: string
+  type: string
+};
+
+
+export const newsItems: dataProp[] = [
+  
   {
     id: 1,
     title: "Supporter Pack Released",
