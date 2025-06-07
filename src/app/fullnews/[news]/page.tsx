@@ -1,12 +1,11 @@
 import Button from "@/app/components/Button"
 import { newsItems } from "@/data/news"
 
-
-interface PageProps {
+interface NewsDetailsProps {
     params: { news: string }
 }
 
-const NewsDetail = async ({ params }: PageProps) => {
+const NewsDetail = async ({ params }: NewsDetailsProps) => {
     const newsId = parseInt(params.news)
     const newsData = newsItems.find(item => item.id === newsId)
 
