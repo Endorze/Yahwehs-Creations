@@ -1,4 +1,4 @@
-
+import LatestNews from "./components/LatestNews";
 
 
 export default function Home() {
@@ -7,6 +7,8 @@ export default function Home() {
       <h1 className="text-4xl font-bold text-blue-600">
         Hello Tailwind! And goodmorning Vietnam!
       </h1>
+      <LatestNews />
     </div>
   );
+
 }
