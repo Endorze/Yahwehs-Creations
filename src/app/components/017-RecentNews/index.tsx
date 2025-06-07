@@ -51,7 +51,7 @@ const RecentNews = () => {
     const [visibleCount, setVisibleCount] = useState(3)
 
     const loadMore = () => {
-        setVisibleCount((prev) => prev + 6) // show 6 more on each click
+        setVisibleCount((prev) => prev + 4)
     }
 
     return (
