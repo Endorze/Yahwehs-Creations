@@ -1,5 +1,4 @@
 "use client"
-
 import { useState } from "react"
 import { newsItems } from "@/data/news"
 import H2Title from "../H2Title/H2Title"
