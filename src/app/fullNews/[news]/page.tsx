@@ -1,5 +1,6 @@
-import { newsItems } from "@/data/news"
 import Button from "@/app/components/Button"
+import { newsItems } from "@/data/news"
+
 
 interface PageProps {
     params: { news: string }
