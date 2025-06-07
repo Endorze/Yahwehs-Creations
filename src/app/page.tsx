@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-=======
 import SupporterPack from "./components/ 006-Supporterpack";
 
->>>>>>> 006-Feature/Supporterpack
 export default function Home() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-gray-100">
