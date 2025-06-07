@@ -10,7 +10,7 @@ export default function LatestNews() {
   const router = useRouter();
 
   useEffect(() => {
-    // Sort news items by date (descending) and take first 4
+
     const sortedNews = [...newsItems]
       .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
       .slice(0, 4);
@@ -32,9 +32,7 @@ export default function LatestNews() {
 
   return (
     <section className="w-full bg-[#1B1B1B] py-8 px-4">
-      {/* Rest of the component remains the same */}
       <div className="max-w-7xl mx-auto">
-        {/* Header */}
         <div className="flex justify-between items-center mb-6">
           <div>
             <h2 className="text-[#e6a54c] text-3xl md:text-4xl font-bold mb-2" style={{ fontFamily: 'Germania One, cursive' }}>
@@ -53,9 +51,7 @@ export default function LatestNews() {
           </button>
         </div>
 
-        {/* News Grid */}
         <div className="flex flex-col gap-4">
-          {/* Featured News Card */}
           <div
             onClick={() => handleNewsClick(featuredNews.id)}
             className="relative w-full h-64 md:h-80 rounded-lg overflow-hidden cursor-pointer group"
@@ -89,7 +85,6 @@ export default function LatestNews() {
             </div>
           </div>
 
-          {/* Secondary News Cards */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {secondaryNews.map((news: NewsItem) => (
               <div
