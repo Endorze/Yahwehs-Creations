@@ -1,11 +1,5 @@
 
-import H2Title from "./components/H2Title/H2Title";
 import HeroSection from "./components/HeroSection";
-import PlayButton from "./components/PlayButton/PlayButton";
-import SupporterPack from "./components/SupporterPack";
-import Button from "./components/testfolder/Button";
-
-
 import H2Title from "./components/H2Title/H2Title";
 import H3Title from "./components/H3Title/H3Title";
 import SupporterPack from "./components/ 006-Supporterpack";
@@ -18,8 +12,6 @@ import PlayButton from "./components/PlayButton/PlayButton";
 export default function Home() {
   return (
     <>
-
-    
      <HeroSection /> 
       <div className="flex flex-col min-h-screen items-center justify-center bg-gray-100">
 
@@ -37,6 +29,7 @@ export default function Home() {
         </h1>
         <H2Title text="Test title" size="72px"/>
         <H3Title text="Test title" size="32px"/>  
+      </div>
       </div>
     </>
   );
