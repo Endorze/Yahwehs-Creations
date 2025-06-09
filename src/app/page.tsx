@@ -1,10 +1,10 @@
 import SupporterPack from "./components/ 006-Supporterpack";
-import HeroSection from "./components/HeroSection";
+import Herosection from "./components/Herosection";
 
 export default function Home() {
   return (
     <div >
-      <HeroSection />
+      <Herosection />
       <SupporterPack/>
 
     </div>
