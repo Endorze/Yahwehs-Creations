@@ -8,7 +8,7 @@ interface NewsDetailsProps {
 const NewsDetail = async ({ params }: NewsDetailsProps) => {
     params = await params
     const newsId = parseInt(params.news)
-    const newsData = newsItems[newsId]
+    const newsData = newsItems.find((item => item.id === newsId))
 
     return (
         <div className="bg-[#1B1B1B] text-white min-h-screen p-8 flex flex-col justify-center items-center">
