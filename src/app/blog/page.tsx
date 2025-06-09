@@ -4,8 +4,8 @@ import SystemRequirements from "../components/system-requirements/system-require
 export default function BlogPage() {
   return (
     <main className="relative">
-      <SystemRequirements />
       <RecentNews/>
+      <SystemRequirements />
     </main>
   );
 }
