@@ -1,9 +1,31 @@
+import H2Title from "../H2Title/H2Title";
+import H3Title from "../H3Title/H3Title";
+
+import OfficialMediaCard from "../OfficialMediaCard";
+
 const OfficialMediaSection = () => {
-    return (
-        <div className="">
-            <h2 className="text-2xl font-bold">Official Media Section</h2>
+  return (
+    <div className="bg-[url('/images/sectionbackgrounds/officialmedia.png')] bg-cover bg-center bg-no-repeat">
+
+        <div className="md:py-20 md:px-40 py-4 px-4 uppercase ">
+          <H2Title text="Official Media " size="48px" />
+          <H3Title text="YAHWEH REPRESENTS " size="24px" />
+
+          <div className="grid grid-cols-3 gap-4 justify-center items-center">
+           <OfficialMediaCard/>
+           <OfficialMediaCard/>
+           <OfficialMediaCard/>
+           <OfficialMediaCard/>
+           <OfficialMediaCard/>
+           <OfficialMediaCard/>
+           <OfficialMediaCard/>
+           <OfficialMediaCard/>
+           <OfficialMediaCard/>
+          </div>
         </div>
-    )
-}
+      </div>
+
+  );
+};
 
 export default OfficialMediaSection;
