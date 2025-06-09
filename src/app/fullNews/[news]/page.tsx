@@ -13,7 +13,7 @@ const NewsDetail = async ({ params }: NewsDetailsProps) => {
     return (
         <div className="bg-[#1B1B1B] text-white min-h-screen p-8 flex flex-col justify-center items-center">
             {newsData ? (
-                <div className="rounded-b-2xl w-full md:w-[50%] bg-black overflow-hidden">
+                <div className="w-full md:w-[30%] bg-black overflow-hidden">
 
                     <img src={newsData.image} alt={newsData.title} className="w-full object-cover" />
 
