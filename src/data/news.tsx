@@ -12,7 +12,6 @@ export type dataProp = {
   type: string
 };
 
-
 export const newsItems: dataProp[] = [
   
   {
