@@ -38,6 +38,7 @@ export default function Herosection() {
               alt="Play Free Button"
               className="w-full h-auto object-contain"
             />
+            
           </a>
         </div>
       </div>
@@ -50,16 +51,14 @@ export default function Herosection() {
       >
         <div className="flex-1 flex justify-start pl-10">
           <a
-            href="https://futuregames.itch.io/yahwehs-creation"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src="/images/whitesteam.png"
-              alt="Steam Logo"
-              className="h-[60px] w-auto object-contain hover:opacity-80 transition-opacity"
-            />
-          </a>
+           href="https://futuregames.itch.io/yahwehs-creation">
+
+          <img
+            src="/images/whitesteam.png"
+            alt="Steam Logo"
+            className="h-[60px] w-auto object-contain"
+          />
+        </a>
         </div>
 
         <div className="flex-1 flex justify-end pr-10">
