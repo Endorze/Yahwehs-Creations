@@ -12,7 +12,7 @@ import PlayButton from "./components/PlayButton/PlayButton";
 export default function Home() {
   return (
     <>
-     <HeroSection /> 
+     <Herosection /> 
       <div className="flex flex-col min-h-screen items-center justify-center bg-gray-100">
 
       <div className="flex flex-col">
