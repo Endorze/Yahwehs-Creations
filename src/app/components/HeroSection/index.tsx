@@ -2,7 +2,7 @@
 import React from 'react';
 import { heroDescription } from '../news'; 
 
-export default function HeroSection() {
+export default function Herosection() {
   return (
     <section className="relative w-full min-h-screen bg-[#504848] overflow-hidden flex flex-col">
       <div
