@@ -15,8 +15,7 @@ const NewsDetail = async ({ params }: NewsDetailsProps) => {
             {newsData ?
                 <div className="rounded-b-2xl w-full md:w-3/5 ">
                     <div className="flex flex-col justify-center items-center">
-                        <img src={newsData.image} alt={newsData.title} className="borderRadius: '50%',
-  border: '1px solid #fff', width: '100px', height: 'auto'," />
+                        <img src={newsData.image} alt={newsData.title} className="borderRadius: '50%', border: '1px solid #fff', width: '100px', height: 'auto'," />
                     </div>
                     <div className="text-left p-[16px]">
                         <h1 className="text-3xl font-bold mb-4">{newsData.title}</h1>
