@@ -1,3 +1,5 @@
+import SystemRequirements from "../components/021-systemRequirements";
+
 export default function BlogPage() {
   return (
     <section className="p-8">
@@ -5,6 +7,7 @@ export default function BlogPage() {
       <p className="text-lg text-gray-700">
         Welcome to our Blog page. Here you'll find information about our mission, team, and story.
       </p>
+      <SystemRequirements />
     </section>
   );
 }
