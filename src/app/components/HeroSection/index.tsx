@@ -45,7 +45,7 @@ export default function HeroSection() {
 
       <div className="relative z-10 w-full flex justify-center">
         <div
-          className="w-full max-w-[1100px] h-[150px] flex items-center justify-between px-6 sm:px-10 bg-no-repeat bg-cover bg-bottom"
+          className="w-full max-w-[1100px] h-[120px] flex items-center justify-between px-6 sm:px-10 bg-no-repeat bg-cover bg-bottom"
           style={{
             backgroundImage: "url('/images/effects/shadow.png')",
           }}
