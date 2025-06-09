@@ -1,6 +1,6 @@
 'use client';
 import React from 'react';
-import { heroDescription } from '../news'; 
+import { heroDescription } from '@/app/news';
 
 export default function Herosection() {
   return (
@@ -16,22 +16,22 @@ export default function Herosection() {
         <img
           src="/images/yahwehhero.png"
           alt="Yahweh Hero"
-          className="w-[180px] sm:w-[250px] md:w-[320px] lg:w-[409px] mt-20"
+          className="w-[180px] sm:w-[250px] md:w-[320px] lg:w-[409px]"
         />
 
         <p
-          className="text-white font-Germania_One text-[18px] sm:text-[20px] lg:text-[24px] leading-tight max-w-[720px]"
+          className="text-white font-Germania_One text-[18px] sm:text-[20px] lg:text-[24px] leading-tight max-w-[720px] sm:ml-[-10px]"
           style={{ textShadow: '0px 4px 4px rgba(0,0,0,0.25)' }}
         >
           {heroDescription}
         </p>
 
-        <div className="z-20">
+        <div className="z-20 sm:ml-[-10px]">
           <a
-            href="https://yourgame.itch.io"
+            href="https://futuregames.itch.io/yahwehs-creation"
             target="_blank"
             rel="noopener noreferrer"
-            className="relative w-[170px] h-[50px] flex items-center justify-center sm:justify-start hover:scale-105 transition-transform"
+            className="relative w-[180px] h-[60px] flex items-center justify-center sm:justify-start hover:scale-105 transition-transform"
           >
             <img
               src="/images/playfreebtn.png"
@@ -43,29 +43,31 @@ export default function Herosection() {
         </div>
       </div>
 
-      <div className="relative z-10 w-full flex justify-center">
-        <div
-          className="w-full max-w-[1100px] h-[120px] flex items-center justify-between px-6 sm:px-10 bg-no-repeat bg-cover bg-bottom"
-          style={{
-            backgroundImage: "url('/images/effects/shadow.png')",
-          }}
-        >
-          <div className="flex-1 flex justify-start pl-10">
-            <img
-              src="/images/whitesteam.png"
-              alt="Steam Logo"
-              className="h-[40px] sm:h-[60px] w-auto object-contain"
-            />
-          </div>
+      <div
+        className="relative z-10 w-full h-[160px] flex items-center justify-between px-4 sm:px-10 bg-no-repeat bg-cover bg-bottom"
+        style={{
+          backgroundImage: "url('/images/effects/shadow.png')",
+        }}
+      >
+        <div className="flex-1 flex justify-start pl-10">
+          <a
+           href="https://futuregames.itch.io/yahwehs-creation">
 
-          <div className="flex-1 flex justify-end pr-10">
-            <p
-              className="text-white font-Germania_One text-[14px] sm:text-[20px] text-right leading-snug"
-              style={{ textShadow: '0px 4px 4px rgba(0,0,0,0.25)' }}
-            >
-              Can you solve the mystery behind <br /> Yahweh’s Creations?
-            </p>
-          </div>
+          <img
+            src="/images/whitesteam.png"
+            alt="Steam Logo"
+            className="h-[60px] w-auto object-contain"
+          />
+        </a>
+        </div>
+
+        <div className="flex-1 flex justify-end pr-10">
+          <p
+            className="text-white font-Germania_One text-[14px] sm:text-[20px] text-right leading-snug"
+            style={{ textShadow: '0px 4px 4px rgba(0,0,0,0.25)' }}
+          >
+            Can you solve the mystery behind <br /> Yahweh’s Creations?
+          </p>
         </div>
       </div>
 
