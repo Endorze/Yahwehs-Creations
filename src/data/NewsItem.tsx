@@ -52,7 +52,7 @@ export const NewsItems: dataProp[] = [
     title: "World Expansion Incoming",
     date: "May 25, 2025",
     type: "NEWS",
-    image: "/images/newsarticle/image 2.png",
+    image: "/images/newsarticle/image2.png",
     description: `
              New frontiers are opening! The Eastern Continent update will add over 20 new regions to explore, filled with unique cultures, flora, fauna, and hostile factions.
              The expansion also brings a revamped weather system and territory-based resource control — prepare for dynamic change.   
@@ -63,7 +63,7 @@ export const NewsItems: dataProp[] = [
     title: "Patch 1.2 Deployed",
     date: "May 24, 2025",
     type: "PATCH NOTES",
-    image: "/images/newsarticle/image 3.png",
+    image: "/images/newsarticle/image3.png",
     description: `
               Patch 1.2 introduces combat balancing, network improvements, and dozens of bug fixes.
             Key highlights include dual-wielding improvements, stamina regeneration tweaks, and resolved map clipping issues in the Riverlands. Full patch notes available on our forums.
@@ -74,7 +74,7 @@ export const NewsItems: dataProp[] = [
     title: "Yahweh's Creations Spotlight",
     date: "May 22, 2025",
     type: "COMMUNITY",
-    image: "/images/newsarticle/image 3.png",
+    image: "/images/newsarticle/image3.png",
     description: `
               Each month, we highlight players who go above and beyond with their creativity. From fan art and music to in-game builds and mods — we celebrate you.
             This month's spotlight includes an incredible cathedral replica and a cinematic trailer made by our Discord community.
@@ -85,7 +85,7 @@ export const NewsItems: dataProp[] = [
     title: "Gameplay Trailer Live",
     date: "May 20, 2025",
     type: "TRAILER",
-    image: "/images/newsarticle/image 4.png",
+    image: "/images/newsarticle/image4.png",
     description: `
               The official gameplay trailer for Yahweh’s Creations is now live!
              Witness dynamic weather, real-time combat, and breathtaking visuals captured in 4K. Share it with your guild, and let us know your favorite moment using #YahwehsCreations.
