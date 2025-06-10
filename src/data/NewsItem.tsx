@@ -12,7 +12,7 @@ export type dataProp = {
   type: string
 };
 
-export const newsItems: dataProp[] = [
+export const NewsItems: dataProp[] = [
   
   {
     id: 1,
