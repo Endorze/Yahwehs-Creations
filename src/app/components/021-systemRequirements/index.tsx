@@ -4,7 +4,7 @@ export default function SystemRequirements() {
   return (
     <section className="relative w-full min-h-[1150px] bg-black text-white">
       <h1
-        className="absolute top-6 left-10 sm:top-0 sm:left-48 text-[32px] sm:text-[48px] leading-[40px] sm:leading-[56px] font-[Germania_One] z-10"
+        className="absolute top-10 left-10 sm:top-8 sm:left-48 text-[32px] sm:text-[48px] leading-[40px] sm:leading-[56px] font-[Germania_One] z-10"
         style={{ fontWeight: 400 }}
       >
         SYSTEM REQUIREMENTS
@@ -19,7 +19,7 @@ export default function SystemRequirements() {
         />
       </div>
 
-      <div className="absolute w-[80%] max-w-[633px] h-[34px] left-1/2 -translate-x-1/2 bottom-8 sm:top-[1120px] sm:left-1/2 sm:-translate-x-1/2">
+      <div className="absolute w-[80%] max-w-[633px] h-[34px] left-1/2 -translate-x-1/2 bottom-8 sm:top-[1020px] sm:left-1/2 sm:-translate-x-1/2">
         <Image
           src="/images/effects/gradientline.png"
           alt="Gradient Line"
