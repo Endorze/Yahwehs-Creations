@@ -6,9 +6,7 @@ import PlayButton from "../PlayButton/PlayButton";
 const TrailerSection = () => {
     return (
 
-        <section
-
-            className="relative bg-cover bg-center bg-no-repeat text-white min-h-screen flex flex-col items-center justify-center px-6 py-16"
+        <section className="relative bg-cover bg-center bg-no-repeat text-white min-h-screen flex flex-col items-center justify-center px-6 py-16"
             style={{ backgroundImage: "url('/images/sectionbackgrounds/dungeons.png')" }}
         >
             {/* Gradient image at bottom center */}
