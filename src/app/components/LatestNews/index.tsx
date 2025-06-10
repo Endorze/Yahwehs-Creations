@@ -3,19 +3,16 @@
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import Image from 'next/image';
-import { NewsItems, dataProp } from '../../../data/NewsItem';
+import { NewsItems, dataProp } from '../../../data/NewsItem'; 
 
 export default function LatestNews() {
-  const [latestNews, setLatestNews] = useState<dataProp[]>([]);
+  const [latestNews, setLatestNews] = useState<dataProp[]>([]); 
   const router = useRouter();
 
   useEffect(() => {
     const sortedNews = [...NewsItems]
       .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
       .slice(0, 4);
-    
-    console.log('Latest news:', sortedNews); // Debug log
-    console.log('First image path:', sortedNews[0]?.image); // Debug log
     
     setLatestNews(sortedNews);
   }, []);
@@ -54,14 +51,10 @@ export default function LatestNews() {
         </div>
 
         <div className="flex flex-col gap-4">
-          {/* Debug info */}
-          <div className="text-white text-sm">
-            Debug: Featured image path: {featuredNews.image}
-          </div>
 
           <div
             onClick={() => handleNewsClick(featuredNews.id)}
-            className="relative w-full h-64 md:h-80 rounded-lg overflow-hidden cursor-pointer group border-2 border-red-500"
+            className="relative w-full h-64 md:h-80 rounded-lg overflow-hidden cursor-pointer group"
           >
             <Image
               src={featuredNews.image}
@@ -70,13 +63,6 @@ export default function LatestNews() {
               sizes="(max-width: 768px) 100vw, 100vw"
               className="object-cover transition-transform duration-300 group-hover:scale-105"
               priority
-              onError={(e) => {
-                console.error('Image failed to load:', featuredNews.image);
-                console.error('Error:', e);
-              }}
-              onLoad={() => {
-                console.log('Image loaded successfully:', featuredNews.image);
-              }}
             />
             <div className="absolute inset-0 bg-black bg-opacity-50 group-hover:bg-opacity-40 transition-all duration-300" />
             <div className="absolute bottom-0 left-0 right-0 p-6">
@@ -102,11 +88,11 @@ export default function LatestNews() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {secondaryNews.map((news: dataProp) => (
+            {secondaryNews.map((news: dataProp) => ( 
               <div
                 key={news.id}
                 onClick={() => handleNewsClick(news.id)}
-                className="relative h-48 rounded-lg overflow-hidden cursor-pointer group border-2 border-blue-500"
+                className="relative h-48 rounded-lg overflow-hidden cursor-pointer group"
               >
                 <Image
                   src={news.image}
@@ -114,9 +100,6 @@ export default function LatestNews() {
                   fill
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw, 25vw"
                   className="object-cover transition-transform duration-300 group-hover:scale-105"
-                  onError={(e) => {
-                    console.error('Image failed to load:', news.image);
-                  }}
                 />
                 <div className="absolute inset-0 bg-black bg-opacity-50 group-hover:bg-opacity-40 transition-all duration-300" />
                 <div className="absolute bottom-0 left-0 right-0 p-4">
