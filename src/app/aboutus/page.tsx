@@ -1,6 +1,5 @@
 
 import AboutSection from '../components/AboutSection/AboutSection';
-
 export default function AboutUsPage() {
   return (
     <main className="min-h-screen bg-white">
@@ -10,7 +9,6 @@ export default function AboutUsPage() {
           Welcome to our About Us page. Here you'll find information about our mission, team, and story.
         </p>
       </section>
-
       <AboutSection />
     </main>
   );
