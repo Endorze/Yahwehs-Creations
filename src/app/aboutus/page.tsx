@@ -1,5 +1,6 @@
 
 import AboutSection from '../components/AboutSection/AboutSection';
+import CreditsAboutUs from '../components/CreditsAboutUs';
 export default function AboutUsPage() {
   return (
     <main className="min-h-screen bg-white">
@@ -10,6 +11,7 @@ export default function AboutUsPage() {
         </p>
       </section>
       <AboutSection />
+      <CreditsAboutUs />
     </main>
   );
 }
