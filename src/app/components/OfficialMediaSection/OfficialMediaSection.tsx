@@ -1,5 +1,6 @@
 import H2Title from "../H2Title/H2Title";
 import H3Title from "../H3Title/H3Title";
+import Image from "next/image";
 
 import OfficialMediaCard from "../OfficialMediaCard";
 
@@ -12,7 +13,7 @@ const OfficialMediaSection = () => {
           <H2Title text="Official Media " size="48px" />
           <H3Title text="YAHWEH REPRESENTS " size="24px" />
           </div>
-          <div className="grid grid-cols-3 gap-4 justify-center items-center">
+          <div className="grid grid-cols-2  gap-4 justify-center items-center md:grid-cols-3">
            <OfficialMediaCard/>
            <OfficialMediaCard/>
            <OfficialMediaCard/>
@@ -25,7 +26,14 @@ const OfficialMediaSection = () => {
           </div>
         </div>
 
-        <div></div>
+        <div className="flex justify-center mt-auto">
+          <Image
+            src="/images/effects/gradientline.png"
+            alt="gradientline"
+            width={500}
+            height={500}
+          />
+        </div>
       </div>
 
   );
