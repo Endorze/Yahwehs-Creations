@@ -4,7 +4,7 @@ export default function SystemRequirements() {
   return (
     <section className="flex flex-col justify-center items-center min-h-screen bg-black text-white">
       <div className="flex flex-col items-center">
-        <h1 className="text-white-500 text-[32px] sm:text-[48px] font-[Germania_One] mb-8" style={{ fontWeight: 400 }}>
+        <h1 className="text-white text-[32px] sm:text-[48px] font-[Germania_One] mb-8" style={{ fontWeight: 400 }}>
           SYSTEM REQUIREMENTS
         </h1>
 
