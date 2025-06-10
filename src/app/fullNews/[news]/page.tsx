@@ -5,8 +5,8 @@ interface NewsDetailsProps {
     params: { news: string }
 }
 
-const NewsDetail = async ({ params }: {params: Promise<{news:string}>}) => {
-   const {news} = await params
+const NewsDetail = async ({ params }: { params: Promise<{ news: string }> }) => {
+    const { news } = await params
     const newsId = parseInt(news)
     const newsData = newsItems.find(item => item.id === newsId)
 
@@ -15,9 +15,7 @@ const NewsDetail = async ({ params }: {params: Promise<{news:string}>}) => {
             <div className="bg-[#1B1B1B] text-white min-h-screen p-8 flex flex-col justify-center items-center">
                 {newsData ? (
                     <div className="w-full lg:w-[50%] bg-black overflow-hidden">
-                        <div className="w-full h-[60vh]">
-                            <img src={newsData.image} alt={newsData.title} className="w-full h-full object-fill" />
-                        </div>
+                        <img src={newsData.image} alt={newsData.title} className="w-full h-[70%] md:h-full object-fill" />
 
                         <div className="text-left p-4">
                             <h1 className="text-3xl font-bold mb-4">{newsData.title}</h1>
