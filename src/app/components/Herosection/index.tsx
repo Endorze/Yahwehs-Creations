@@ -1,79 +1,85 @@
-"use client";
+'use client';
+import React from 'react';
+import { heroDescription } from '@/app/news';
 
-import Image from "next/image";
-import Link from "next/link";
-
-const HeroSection = () => {
+export default function Herosection() {
   return (
-    <div className="relative min-h-screen w-full">
-      <div className="fixed inset-0 -z-10">
-        <Image
-          src="/images/sectionbackgrounds/nicolas-mendoza-catthedral.jpg"
-          alt="Cathedral Background"
-          fill
-          className="object-cover"
-          priority
-          quality={80}
+    <section className="relative w-full min-h-screen bg-[#504848] overflow-hidden flex flex-col">
+      <div
+        className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
+        style={{
+          backgroundImage: "url('/images/sectionbackgrounds/nicolas-mendoza-catthedral.jpg')",
+        }}
+      />
+
+      <div className="relative z-10 flex-grow w-full max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-12 pt-10 sm:pt-16 flex flex-col items-center sm:items-start text-center sm:text-left gap-6">
+        <img
+          src="/images/yahwehhero.png"
+          alt="Yahweh Hero"
+          className="w-[180px] sm:w-[250px] md:w-[320px] lg:w-[409px]"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/90 via-black/70 to-black/90" />
-      </div>
 
-      <div className="relative z-10 flex flex-col items-start justify-center min-h-screen px-6 max-w-4xl mx-auto">
-        <div className="relative mb-6 w-[500px] h-[180px] ml-4">
-          <Image
-            src="/images/yahwehhero.png"
-            alt="Yahweh's Creations Logo"
-            fill
-            className="object-contain"
-            priority
-          />
-        </div>
-
-        <p className="text-white text-base md:text-lg leading-relaxed mb-8 ml-4 max-w-xl">
-          A brutal dark fantasy FPS where you, fueled by vengeance and divine purpose,
-          storm a cursed cathedral to stop a mad Archbishop from ascending to godhood.
+        <p
+          className="text-white font-Germania_One text-[18px] sm:text-[20px] lg:text-[24px] leading-tight max-w-[720px] sm:ml-[-10px]"
+          style={{ textShadow: '0px 4px 4px rgba(0,0,0,0.25)' }}
+        >
+          {heroDescription}
         </p>
 
-        <div className="mb-4 ml-4">
+        <div className="z-20 sm:ml-[-10px]">
           <a
-            href="https://itch.io"
+            href="https://futuregames.itch.io/yahwehs-creation"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:opacity-90 transition"
+            className="relative w-[180px] h-[60px] flex items-center justify-center sm:justify-start hover:scale-105 transition-transform"
           >
-            <Image
+            <img
               src="/images/playfreebtn.png"
-              alt="Play Free"
-              width={220}
-              height={64}
-              className="object-contain"
+              alt="Play Free Button"
+              className="w-full h-auto object-contain"
             />
+            
           </a>
         </div>
+      </div>
 
-        <div className="ml-4">
-          <Link
-            href="https://store.steampowered.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-5 px-6 py-4 rounded-md text-2xl font-semibold hover:bg-[#e6a54c] hover:text-black transition"
-          >
-            <div className="relative w-[94px] h-[94px] flex-shrink-0">
-              <Image
-                src="/images/whitesteam.png"
-                alt="Steam"
-                fill
-                className="object-contain"
-                priority
-              />
-            </div>
-          </Link>
+      <div
+        className="relative z-10 w-full h-[160px] flex items-center justify-between px-4 sm:px-10 bg-no-repeat bg-cover bg-bottom"
+        style={{
+          backgroundImage: "url('/images/effects/shadow.png')",
+        }}
+      >
+        <div className="flex-1 flex justify-start pl-10">
+          <a
+           href="https://futuregames.itch.io/yahwehs-creation">
+
+          <img
+            src="/images/whitesteam.png"
+            alt="Steam Logo"
+            className="h-[60px] w-auto object-contain"
+          />
+        </a>
         </div>
 
-        <div className="h-20" />
+        <div className="flex-1 flex justify-end pr-10">
+          <p
+            className="text-white font-Germania_One text-[14px] sm:text-[20px] text-right leading-snug"
+            style={{ textShadow: '0px 4px 4px rgba(0,0,0,0.25)' }}
+          >
+            Can you solve the mystery behind <br /> Yahweh’s Creations?
+          </p>
+        </div>
       </div>
-    </div>
-  );
-};
 
-export default HeroSection;
+      <div
+        className="relative z-0 w-full max-w-[933px] h-[34px] mx-auto"
+        style={{
+          backgroundImage: "url('/images/effects/gradientline.png')",
+          backgroundRepeat: 'no-repeat',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}
+      />
+    </section>
+  );
+}
