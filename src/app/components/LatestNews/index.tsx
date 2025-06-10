@@ -59,7 +59,6 @@ export default function LatestNews() {
             Debug: Featured image path: {featuredNews.image}
           </div>
 
-          {/* Featured News Card */}
           <div
             onClick={() => handleNewsClick(featuredNews.id)}
             className="relative w-full h-64 md:h-80 rounded-lg overflow-hidden cursor-pointer group border-2 border-red-500"
@@ -102,7 +101,6 @@ export default function LatestNews() {
             </div>
           </div>
 
-          {/* Secondary News Cards */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {secondaryNews.map((news: dataProp) => (
               <div
