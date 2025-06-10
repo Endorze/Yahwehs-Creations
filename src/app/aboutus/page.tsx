@@ -6,13 +6,10 @@ import PlaytestingSection from '../components/PlaytestingSection/PlaytestingSect
 export default function AboutUsPage() {
   return (
     <main className="min-h-screen bg-white">
-      <section className="p-8">
-        <h1 className="text-4xl font-bold mb-4">About Us</h1>
-      </section>
+      <TrailerSection />
       <AboutSection />
       <CreditsAboutUs />
       <PlaytestingSection />
-      <TrailerSection />
     </main>
   );
 }
