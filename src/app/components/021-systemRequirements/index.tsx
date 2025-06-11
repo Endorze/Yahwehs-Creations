@@ -2,28 +2,33 @@ import Image from "next/image";
 
 export default function SystemRequirements() {
   return (
-    <section className="flex flex-col justify-center items-center min-h-screen bg-black text-white">
-      <div className="flex flex-col items-center">
-        <h1 className="text-white text-[32px] sm:text-[48px] font-[Germania_One] mb-8" style={{ fontWeight: 400 }}>
-          SYSTEM REQUIREMENTS
-        </h1>
+    <section className="hidden sm:flex flex-col items-center bg-black text-white min-h-[900px] pt-20 px-4">
+      <h1
+        className="text-3xl sm:text-4xl md:text-5xl font-[Germania_One] mb-12"
+        style={{ fontWeight: 400 }}
+      > 
+        SYSTEM REQUIREMENTS
+      </h1>
 
-        <div className="w-[90vw] max-w-[1122px] h-[60vh] sm:h-[748px] relative">
-          <Image
-            src="/images/image5.png"
-            alt="System Requirements Image"
-            fill
-            className="object-cover"
-          />
-        </div>
+      <div className="relative" style={{ width: 700, height: 420 }}>
+        <Image
+          src="/images/image5.png"
+          alt="System Requirements Image"
+          width={700}
+          height={420}
+          className="object-contain"
+          priority
+        />
       </div>
 
-      <div className="relative w-[80%] max-w-[633px] h-[34px] mt-16">
+      <div className="relative mt-16" style={{ width: 350, height: 20 }}>
         <Image
           src="/images/effects/gradientline.png"
           alt="Gradient Line"
-          fill
-          className="object-cover"
+          width={350}
+          height={20}
+          className="object-contain"
+          priority
         />
       </div>
     </section>
