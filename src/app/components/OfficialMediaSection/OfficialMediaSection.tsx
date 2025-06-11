@@ -13,7 +13,7 @@ const OfficialMediaSection = () => {
           <H2Title text="Official Media " size="48px" />
           <H3Title text="YAHWEH REPRESENTS " size="24px" />
           </div>
-          <div className="grid grid-cols-2  gap-4 justify-center items-center md:grid-cols-3">
+          <div className="grid grid-cols-1   gap-4 justify-center items-center md:grid-cols-3  sm:grid-cols-2">
            <OfficialMediaCard/>
            <OfficialMediaCard/>
            <OfficialMediaCard/>
