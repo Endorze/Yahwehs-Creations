@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useState } from "react";
 
 const OfficialMediaCard = ({
-  image = "images/newsarticle/gyro.png"
+  image = "/images/newsarticle/gyro.png"
 }: {
   image?: string;
 }) => {
