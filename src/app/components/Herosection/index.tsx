@@ -20,18 +20,22 @@ export default function HeroSection() {
         />
 
         <p
-          className="text-white font-Germania_One text-[18px] sm:text-[20px] lg:text-[24px] leading-tight max-w-[720px] sm:ml-[-10px]"
-          style={{ textShadow: '0px 4px 4px rgba(0,0,0,0.25)' }}
+          className="text-white font-Germania_One text-[18px] sm:text-[20px] lg:text-[24px] leading-tight max-w-[720px]"
+          style={{
+          textShadow: '0px 4px 4px rgba(0,0,0,0.25)',
+          marginLeft: '30px',    
+          marginTop: '-50px',     
+         }}
         >
-          {heroDescription}
-        </p>
+        {heroDescription}
+      </p>
 
         <div className="z-20 sm:ml-[-10px]">
           <a
             href="https://futuregames.itch.io/yahwehs-creation"
             target="_blank"
             rel="noopener noreferrer"
-            className="relative w-[180px] h-[60px] flex items-center justify-center sm:justify-start hover:scale-105 transition-transform"
+            className="relative w-[180px] h-[80px] flex items-center justify-center sm:justify-start hover:scale-105 transition-transform"
           >
             <img
               src="/images/playfreebtn.png"
