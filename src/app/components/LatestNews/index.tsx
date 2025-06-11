@@ -64,7 +64,6 @@ export default function LatestNews() {
               className="object-cover transition-transform duration-300 group-hover:scale-105"
               priority
             />
-            <div className="absolute inset-0 bg-black bg-opacity-50 group-hover:bg-opacity-40 transition-all duration-300" />
             <div className="absolute bottom-0 left-0 right-0 p-6">
               <span
                 className="inline-block bg-[#e6a54c] text-black px-3 py-1 text-xs font-bold rounded mb-3"
@@ -101,7 +100,6 @@ export default function LatestNews() {
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw, 25vw"
                   className="object-cover transition-transform duration-300 group-hover:scale-105"
                 />
-                <div className="absolute inset-0 bg-black bg-opacity-50 group-hover:bg-opacity-40 transition-all duration-300" />
                 <div className="absolute bottom-0 left-0 right-0 p-4">
                   <span
                     className="inline-block bg-[#e6a54c] text-black px-2 py-1 text-xs font-bold rounded mb-2"
