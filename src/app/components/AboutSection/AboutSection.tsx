@@ -66,7 +66,9 @@ export default function AboutSection() {
               {description}
             </p>
 
-             <Link href={href} className="relative w-32 sm:w-40 h-10 mt-2 group inline-block"
+            <Link
+              href={href}
+              className="relative w-32 sm:w-40 h-10 mt-2 group inline-block"
             >
               <Image
                 src="/images/orangebutton.png"
@@ -81,7 +83,6 @@ export default function AboutSection() {
               >
                 READ MORE
               </span>
-              
             </Link>
           </div>
         ))}
