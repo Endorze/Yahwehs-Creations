@@ -1,4 +1,3 @@
-
 import RecentNews from "../components/017-RecentNews";
 import BlogHeroSection from "../components/BlogHeroSection/BlogHeroSection";
 import FAQSection from "../components/FAQSection/FAQSection";
@@ -11,11 +10,12 @@ export default function BlogPage() {
     <>
     <main className="relative">
       <BlogHeroSection />
-      <RecentNews/>
       <FAQSection />
+      <RecentNews />
       <OfficialMediaSection/>
       <SystemRequirements />
       <AlexTestSystemRequirements />
+      
     </main>
 
     </>
