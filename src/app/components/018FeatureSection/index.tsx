@@ -23,7 +23,7 @@ function FeatureSection({ name, subtitle, description, image, reverse = false,}:
             className="object-contain"
           />
         </div>
-       <div className="w-full md:w-1/2 px-6 md:px-36 mt-8 md:mt-0 text-center md:text-left">
+      <div className="w-full md:w-1/2 px-6 md:px-36 mt-8 md:mt-0 text-center md:text-left">
           <H2Title text={name} size="32px" />
           <div className="mt-2">
             <H3Title text={subtitle} size="24px" />

@@ -5,7 +5,7 @@ import H2Title from '../H2Title/H2Title';
 
 const MeetTheCreatures = () => {
     return (
-        <section className="relative bg-black text-white pt-16 pb-32">
+         <section className="relative bg-black text-white pt-16 pb-32">
             <div className="px-6 text-center md:text-left md:px-36 mb-12">
                 <H2Title text="Meet the Creatures" size="32px" />
             </div>
