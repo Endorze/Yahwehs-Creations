@@ -1,14 +1,10 @@
 import Button from "@/app/components/Button"
-import { newsItems } from "@/data/news"
-
-interface NewsDetailsProps {
-    params: { news: string }
-}
+import { newsItems } from "@/data/NewsItem"
 
 const NewsDetail = async ({ params }: { params: Promise<{ news: string }> }) => {
     const { news } = await params
     const newsId = parseInt(news)
-    const newsData = newsItems.find(item => item.id === newsId)
+    const newsData = newsItems.find((item: { id: number }) => item.id === newsId)
 
     return (
         <>
@@ -44,4 +40,4 @@ const NewsDetail = async ({ params }: { params: Promise<{ news: string }> }) => 
     )
 }
 
-export default NewsDetail
+export default NewsDetail;
