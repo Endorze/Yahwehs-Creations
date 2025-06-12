@@ -1,4 +1,4 @@
-import FeatureSection from '../018-HeroSection';
+import FeatureSection from '../018-FeatureSection';
 import Image from 'next/image';
 import H2Title from '../H2Title/H2Title';
 
