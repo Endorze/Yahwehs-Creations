@@ -10,10 +10,9 @@ interface FeatureSectionProps {
   reverse?: boolean;
 }
 
-const FeatureSection: React.FC<FeatureSectionProps> = ({name,subtitle,description,image,reverse = false,}) => {
+function FeatureSection({ name, subtitle, description, image, reverse = false,}: FeatureSectionProps) {
   return (
     <div className="relative my-16">
-      {/* Main content */}
       <div className={`flex flex-col md:flex-row ${reverse ? 'md:flex-row-reverse' : ''} items-center`}>
         <div className="w-full md:w-1/2 flex justify-center">
           <Image
@@ -24,10 +23,7 @@ const FeatureSection: React.FC<FeatureSectionProps> = ({name,subtitle,descriptio
             className="object-contain"
           />
         </div>
-
-        {/* <div className="w-full md:w-1/2 text-center md:text-left px-6 mt-8 md:mt-0 md:ms-25"> */}
-        <div className="w-full md:w-1/2 px-6 mt-8 md:mt-0 text-center md:text-left md:ms-25">
-
+       <div className="w-full md:w-1/2 px-6 md:px-36 mt-8 md:mt-0 text-center md:text-left">
           <H2Title text={name} size="32px" />
           <div className="mt-2">
             <H3Title text={subtitle} size="24px" />
@@ -37,11 +33,9 @@ const FeatureSection: React.FC<FeatureSectionProps> = ({name,subtitle,descriptio
           </p>
         </div>
       </div>
-
-
-
     </div>
   );
-};
+}
 
 export default FeatureSection;
+
