@@ -16,3 +16,24 @@ body {
     background: #1B1B1B;
 }
 
+<<<<<<< HEAD
+=======
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  height: 100vh;
+  --font-germania: 'Germania One', cursive;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+.font-germania {
+  font-family: var(--font-germania);
+}
+>>>>>>> 021-Feature/systemRequirements
