@@ -20,7 +20,7 @@ const TrailerSection = () => {
             <div className="relative z-10 max-w-4xl w-full">
                 {/* Top Text */}
                 <div className="text-left">
-                    <H2Title text="HOW CAN WE CERTAIN THAT ANGELS MEAN NO HARM" size="45px" />
+                    <H2Title text="HOW CAN WE CERTAIN THAT ANGELS MEAN NO HARM" size="25px" />
                     <H3Title text="DELVE DEEP INTO THE CATACOMBS OF YAHWEH'S CATHEDRAL" size="20px" />
                     <p className="text-sm max-w-2xl mt-4 mb-8">
                         "For God so loved the world that he gave his one and only Son, That whoever believes in him shall not perish but have eternal life.
