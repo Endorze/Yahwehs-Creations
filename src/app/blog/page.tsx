@@ -1,3 +1,4 @@
+import MeetTheCreatures from "../components/MeetTheCreatures";
 import RecentNews from "../components/017-RecentNews";
 import BlogHeroSection from "../components/BlogHeroSection/BlogHeroSection";
 import FAQSection from "../components/FAQSection/FAQSection";
@@ -15,9 +16,16 @@ export default function BlogPage() {
       <OfficialMediaSection/>
       <SystemRequirements />
       <AlexTestSystemRequirements />
+       <MeetTheCreatures />
       
     </main>
 
     </>
+
+
+
+
+    
+  
   );
 }
