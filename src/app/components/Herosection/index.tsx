@@ -28,7 +28,7 @@ export default function HeroSection() {
 
         <div className="z-20 sm:ml-[-10px]">
           <a
-            href="https://yourgame.itch.io"
+            href="https://futuregames.itch.io/yahwehs-creation"
             target="_blank"
             rel="noopener noreferrer"
             className="relative w-[180px] h-[60px] flex items-center justify-center sm:justify-start hover:scale-105 transition-transform"
