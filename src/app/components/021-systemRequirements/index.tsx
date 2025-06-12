@@ -17,6 +17,7 @@ export default function SystemRequirements() {
             priority
             sizes="(max-width: 768px) 100vw, 700px"
           />
+  
         </div>
 
         <div className="relative w-full max-w-[350px] mt-16 h-5">
