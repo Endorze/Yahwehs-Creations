@@ -16,8 +16,6 @@ body {
     background: #1B1B1B;
 }
 
-<<<<<<< HEAD
-=======
 
 * {
   box-sizing: border-box;
@@ -36,4 +34,3 @@ body {
 .font-germania {
   font-family: var(--font-germania);
 }
->>>>>>> 021-Feature/systemRequirements
