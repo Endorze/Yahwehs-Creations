@@ -14,7 +14,7 @@ export default function BlogPage() {
       <RecentNews />
       <OfficialMediaSection/>
       <SystemRequirements />
-       <MeetTheCreatures />
+      <MeetTheCreatures />
       
     </main>
 
