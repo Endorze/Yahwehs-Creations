@@ -83,7 +83,7 @@ const RecentNews = () => {
             )}
 
             <div className="flex items-center justify-center w-full -mt-10 p-[3px]">
-                <img src="/images/effects/gradientline.png" alt="Gradient Line" />
+                <img src="/images/effects/gradientline.png" alt="Gradient Line" width="auto" height= "auto"/>
             </div>
         </div>
     )
