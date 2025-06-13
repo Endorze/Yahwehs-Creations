@@ -1,5 +1,5 @@
 import Button from "@/app/components/Button"
-import { newsItems } from "@/data/NewsItem"
+import { newsItems } from "@/data/news"
 
 const NewsDetail = async ({ params }: { params: Promise<{ news: string }> }) => {
     const { news } = await params
