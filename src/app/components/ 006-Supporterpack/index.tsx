@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { supportPackInfo, SupporterPackProp2 } from "../../../data/news";
+import { supportPackInfo, SupporterPackProp2 } from "../../../data/NewsItem";
 import H2Title from "../H2Title/H2Title";
 
 type SupporterPackProp = {
