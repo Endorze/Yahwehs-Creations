@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import Image from 'next/image';
 import { NewsItems, dataProp } from '../../../data/NewsItem'; 
+import Container from '../Container/container';
 
 export default function LatestNews() {
   const [latestNews, setLatestNews] = useState<dataProp[]>([]); 
@@ -30,7 +31,8 @@ export default function LatestNews() {
   const [featuredNews, ...secondaryNews] = latestNews;
 
   return (
-    <section className="w-full bg-[#1B1B1B] py-8 px-4">
+    <section className="w-full bg-[#1B1B1B] py-8 px-4 relative">
+      <Container>
       <div className="max-w-7xl mx-auto">
         <div className="flex justify-between items-center mb-6">
           <div>
@@ -50,7 +52,7 @@ export default function LatestNews() {
           </button>
         </div>
 
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4 pb-12">
 
           <div
             onClick={() => handleNewsClick(featuredNews.id)}
@@ -125,6 +127,8 @@ export default function LatestNews() {
           </div>
         </div>
       </div>
+      </Container>
+       <img src={"/images/effects/gradientline.png"} className="absolute bottom-0 left-1/2 -translate-x-1/2" />
     </section>
   );
 }

@@ -1,5 +1,6 @@
  import Image from "next/image";
 import Link from "next/link";
+import Container from "../Container/container";
 
 const sections = [
   {
@@ -28,75 +29,70 @@ const sections = [
 export default function AboutSection() {
   return (
     <section className="bg-black py-16 px-4 sm:px-6 lg:px-8 text-white relative">
-      <div className="w-full max-w-screen-xl mx-auto grid gap-12 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 text-center">
-        {sections.map(({ title, description, image, href }) => (
-          <div
-            key={title}
-            className="flex flex-col items-center w-full max-w-[300px] mx-auto"
-          >
-            <Image
-              src={image}
-              alt={title}
-              width={80}
-              height={80}
-              className="mb-4 object-contain sm:w-[100px] sm:h-[100px]"
-            />
+      <Container>
 
-            <h3
-              className="text-2xl font-bold text-[#f3b03f] mb-2"
-              style={{ fontFamily: "'Germania One', cursive" }}
-            >
-              {title}
-            </h3>
-
-            <p
-              className="text-sm mb-4 px-4 w-full"
-              style={{
-                fontFamily: "'Germania One', cursive",
-                color: "#808080",
-                lineHeight: "1.25rem",
-                height: "5rem",
-                display: "-webkit-box",
-                WebkitLineClamp: 4,
-                WebkitBoxOrient: "vertical",
-                overflow: "hidden",
-                textOverflow: "ellipsis",
-              }}
-            >
-              {description}
-            </p>
-
-             <Link href={href} className="relative w-32 sm:w-40 h-10 mt-2 group inline-block"
+        <div className="w-full max-w-screen-xl mx-auto grid gap-12 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 text-center">
+          {sections.map(({ title, description, image, href }) => (
+            <div
+              key={title}
+              className="flex flex-col items-center w-full max-w-[300px] mx-auto"
             >
               <Image
-                src="/images/orangebutton.png"
-                alt="Read More"
-                fill
-                sizes="160px"
-                className="object-contain"
+                src={image}
+                alt={title}
+                width={80}
+                height={80}
+                className="mb-4 object-contain sm:w-[100px] sm:h-[100px]"
               />
-              <span
-                className="absolute inset-0 flex items-center justify-center text-white text-sm group-hover:scale-105 transition"
+
+              <h3
+                className="text-2xl font-bold text-[#f3b03f] mb-2"
                 style={{ fontFamily: "'Germania One', cursive" }}
               >
-                READ MORE
-              </span>
-              
-            </Link>
-          </div>
-        ))}
-      </div>
+                {title}
+              </h3>
 
-      {/* Gradient Line at Bottom */}
-      <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-full flex justify-center px-4 sm:px-0">
-        <Image
-          src="/images/effects/gradientline.png"
-          alt="Gradient Line"
-          width={320}
-          height={6}
-          className="h-auto w-full max-w-[365px] sm:max-w-[600px] md:max-w-[700px]"
-        />
-      </div>
+              <p
+                className="text-sm mb-4 px-4 w-full"
+                style={{
+                  fontFamily: "'Germania One', cursive",
+                  color: "#808080",
+                  lineHeight: "1.25rem",
+                  height: "5rem",
+                  display: "-webkit-box",
+                  WebkitLineClamp: 4,
+                  WebkitBoxOrient: "vertical",
+                  overflow: "hidden",
+                  textOverflow: "ellipsis",
+                }}
+              >
+                {description}
+              </p>
+
+              <Link href={href} className="relative w-32 sm:w-40 h-10 mt-2 group inline-block"
+              >
+                <Image
+                  src="/images/orangebutton.png"
+                  alt="Read More"
+                  fill
+                  sizes="160px"
+                  className="object-contain"
+                />
+                <span
+                  className="absolute inset-0 flex items-center justify-center text-white text-sm group-hover:scale-105 transition"
+                  style={{ fontFamily: "'Germania One', cursive" }}
+                >
+                  READ MORE
+                </span>
+                
+              </Link>
+            </div>
+          ))}
+        </div>
+
+        {/* Gradient Line at Bottom */}
+      </Container>
+         <img src={"/images/effects/gradientline.png"} className="absolute bottom-0 left-1/2 -translate-x-1/2" />
     </section>
   );
 }
