@@ -92,7 +92,7 @@ const Footer = () => {
                             <div className='pt-2'>
                                 <a href='https://www.linkedin.com/in/alexander-hallgren-5a4a501aa/'><p>Alexander Hallgren</p></a>
                                 <a href='http://linkedin.com/in/andrew-julius-kalumba-82b02b348'><p>Andrew Julius Kalumba </p></a>
-                                <a href='/'><p>Moshira Abdelwahad</p></a>
+                                <a href='https://www.linkedin.com/in/mushira-salah-1659612a9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'><p>Moshira Abdelwahad</p></a>
                                 <a href='linkedin.com/in/mariym-aqbal-63741636'><p>Mariym Aqbal</p></a>
                                 <a href='https://www.linkedin.com/in/vineetha-veerapu/'><p>Vineetha Veerapu</p></a>
                                 <a href='https://www.linkedin.com/in/yasmineborghol/'><p>Yasmine Borghol</p></a>
