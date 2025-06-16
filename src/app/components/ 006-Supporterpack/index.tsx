@@ -43,7 +43,7 @@ const SupporterPack = () => {
                         </button>
                     </div>
                 </div>
-                <div className="sm:py-4 sm:px-32 sm:pb-12">
+                <div className="md:py-4 md:px-12 md:pb-12">
                     <div className="text-white sm:p-5 align-left">
                         <h1 className="pt-5 pb-5 font-bold">
                             {active === "overview"
