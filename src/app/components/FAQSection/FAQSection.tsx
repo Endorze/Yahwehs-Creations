@@ -8,7 +8,7 @@ const FAQSection = () => {
         <section>
             <Container>
 
-                <div className="hidden lg:block relative py-30">
+                <div className="hidden lg:block relative py-30" id="faq">
                     <H2Title text="FREQUENTLY ASKED QUESTIONS" size="48px" />
                     <div className="flex flex-row gap-12">
                         <div className="flex-1">

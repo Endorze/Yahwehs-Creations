@@ -14,7 +14,7 @@ export default function HeroSection() {
       />
       <Container>
 
-        <div className="relative z-10 flex-grow w-full max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-12 pt-10 sm:pt-16 flex flex-col items-center sm:items-start text-center sm:text-left gap-6 pb-12">
+        <div className="relative flex-grow w-full max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-12 pt-10 sm:pt-16 flex flex-col items-center sm:items-start text-center sm:text-left gap-6 pb-12">
           <img
             src="/images/yahwehhero.png"
             alt="Yahweh Hero"
@@ -28,7 +28,7 @@ export default function HeroSection() {
             {heroDescription}
           </p>
 
-          <div className="z-20 sm:ml-[-10px]">
+          <div className="sm:ml-[-10px]">
             <a
               href="https://yourgame.itch.io"
               target="_blank"
@@ -46,7 +46,7 @@ export default function HeroSection() {
         </div>
 
         <div
-          className="relative z-10 w-full h-[160px] flex items-center justify-between sm:bg-no-repeat bg-cover bg-bottom"
+          className="relative w-full h-[160px] flex items-center justify-between sm:bg-no-repeat bg-cover bg-bottom"
           style={{
             backgroundImage: "url('/images/effects/shadow.png')",
           }}

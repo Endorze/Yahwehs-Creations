@@ -8,21 +8,21 @@ const sections = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis.",
     image: "/images/values/goals.png",
-    href: "/blog/goals",
+    href: "/blog#faq",
   },
   {
     title: "Vision",
     description:
       "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis.",
     image: "/images/values/vision.png",
-    href: "/blog/vision",
+    href: "/blog#faq",
   },
   {
     title: "Values",
     description:
       "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis.",
     image: "/images/values/values.png",
-    href: "/blog/values",
+    href: "/blog#faq",
   },
 ];
 

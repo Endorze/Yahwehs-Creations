@@ -30,7 +30,7 @@ const Header = () => {
   const borderLeft = "border-l-2 border-white";
   const activeClass = "underline underline-offset-8 decoration-[#EABB00] decoration-2";
   return (
-    <div className="flex justify-between items-center bg-black text-white py-4  px-4 md:px-40 relative">
+    <div className="flex justify-between items-center bg-black text-white py-4  px-4 md:px-40 relative z-1">
       <div>
         <Image
           src="/images/matrix-removebg-preview.png"
