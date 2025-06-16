@@ -91,12 +91,12 @@ const Footer = () => {
                             <H3Title text='Media Webdevelopers' size='12px' />
                             <div className='pt-2'>
                                 <a href='https://www.linkedin.com/in/alexander-hallgren-5a4a501aa/'><p>Alexander Hallgren</p></a>
-                                <a href='/'><p>Andrew Julius Kalumba </p></a>
+                                <a href='http://linkedin.com/in/andrew-julius-kalumba-82b02b348'><p>Andrew Julius Kalumba </p></a>
                                 <a href='/'><p>Moshira Abdelwahad</p></a>
-                                <a href='/'><p>Mariym Aqbal</p></a>
-                                <a href='/'><p>Vineetha Veerapu</p></a>
-                                <a href='/'><p>Yasmine Borghol</p></a>
-                                <a href='/'><p>Saba Waheed</p></a>
+                                <a href='linkedin.com/in/mariym-aqbal-63741636'><p>Mariym Aqbal</p></a>
+                                <a href='https://www.linkedin.com/in/vineetha-veerapu/'><p>Vineetha Veerapu</p></a>
+                                <a href='https://www.linkedin.com/in/yasmineborghol/'><p>Yasmine Borghol</p></a>
+                                <a href='https://www.linkedin.com/in/saba-waheed-0bb188367/'><p>Saba Waheed</p></a>
                             </div>
                             <div className='pt-2'>
                                 <H3Title text='UX DESIGNER' size='12px' />
