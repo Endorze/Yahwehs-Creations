@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import Image from 'next/image';
-import { NewsItems, dataProp } from '../../../data/NewsItem'; 
+import { newsItems, dataProp } from '../../../data/NewsItem'; 
 import Container from '../Container/container';
 
 export default function LatestNews() {
@@ -11,7 +11,7 @@ export default function LatestNews() {
   const router = useRouter();
 
   useEffect(() => {
-    const sortedNews = [...NewsItems]
+    const sortedNews = [...newsItems]
       .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
       .slice(0, 4);
     
