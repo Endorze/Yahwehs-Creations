@@ -16,7 +16,7 @@ const SupporterPack = () => {
     const PackInformation = ({ image, text }: SupporterPackProp) => {
         return (
             <div>
-                <img src={`/images/${image}`} alt={text} />
+                <img src={`/images/${image}`} alt={text}/>
             </div>
         )
     }
@@ -25,7 +25,7 @@ const SupporterPack = () => {
         <div className="w-full flex flex-col items-end bg-[url('/images/sectionbackgrounds/catacombs.png')] bg-cover bg-center">
             <div className="sm:w-1/2 flex flex-col justify-center items-center bg-black text-base m-[30px] p-[20px] sm:m-0 sm:p-0 lg:m-0">
 
-                <PackInformation image="yahwehsupport_with_orange_glow.png" text="Yawhweh support Image" />
+                <PackInformation image="yahwehsupport_with_orange_glow.png" text="Yawhweh support Image"/>
 
                 <div className="relative flex items-center justify-center">
                     <PackInformation image="effects/shadow.png" text="Shadow Image" />
@@ -43,24 +43,25 @@ const SupporterPack = () => {
                         </button>
                     </div>
                 </div>
+                <div className="sm:py-4 sm:px-32 sm:pb-12">
+                    <div className="text-white sm:p-5 align-left">
+                        <h1 className="pt-5 pb-5 font-bold">
+                            {active === "overview"
+                                ? "THE BISHOP OF YAHWEH DEMANDS A SACRIFICE"
+                                : "ENTER THE CATACOMBS OF FAITH AND FIRE"}
+                        </h1>
 
-                <div className="text-white sm:p-5 align-left">
-                    <h1 className="pt-5 pb-5 font-bold">
-                        {active === "overview"
-                            ? "THE BISHOP OF YAHWEH DEMANDS A SACRIFICE"
-                            : "ENTER THE CATACOMBS OF FAITH AND FIRE"}
-                    </h1>
-
-                    <div className="text-[#808080]">
-                        <div className="pb-5"><H2Title text={active === "overview"
-                            ? "'Drink from this Chalice and you shall obtain Godhood'"
-                            : "'Wield the Word. Cleanse the Unworthy. Become Divine.'"} size="24px" /></div>
-                    
-                        {YahwehInfor.filter(item => item[active]).map((item, index) => (
-                            <div key={index} className="mb-4 leading-relaxed">
-                                {item[active]}
-                            </div>
-                        ))}
+                        <div className="text-[#808080]">
+                            <div className="pb-5"><H2Title text={active === "overview"
+                                ? "'Drink from this Chalice and you shall obtain Godhood'"
+                                : "'Wield the Word. Cleanse the Unworthy. Become Divine.'"} size="24px" /></div>
+                        
+                            {YahwehInfor.filter(item => item[active]).map((item, index) => (
+                                <div key={index} className="mb-4 leading-relaxed">
+                                    {item[active]}
+                                </div>
+                            ))}
+                        </div>
                     </div>
                 </div>
 

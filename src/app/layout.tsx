@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-import { IM_Fell_English_SC, Germania_One } from "next/font/google";
+import { Geist, Geist_Mono, Germania_One } from "next/font/google";
 import "./globals.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer/Footer";
@@ -14,12 +13,6 @@ const geistSans = Geist({
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
-});
-
-const imFell = IM_Fell_English_SC({
-  weight: "400",
-  subsets: ["latin"],
-  variable: "--font-imfell",
 });
 
 const germania = Germania_One({
@@ -39,13 +32,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html
-      lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} ${imFell.variable} ${germania.variable}`}
-    >
-      <body className="bg-[#1B1B1B] text-white">
+    <html lang="en">
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} ${germania.variable} antialiased`}
+      >
         <Header />
-        {children}
+          {children}
         <Footer />
       </body>
     </html>

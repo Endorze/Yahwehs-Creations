@@ -6,7 +6,7 @@ const PlaytestingSection = () => {
     return (
         <section>
             <div className="hidden lg:flex bg-[url('/images/playtesting/cathedralgameplay.png')] bg-cover bg-center w-full text-white justify-center relative pt-12 pb-24">
-                <div className="flex flex-row items-start z-1 gap-24">
+                <div className="flex flex-row items-start z-1 gap-24 max-w-[1200px] w-full">
                     <div className="flex flex-1 flex-col gap-3">
                         <div>
                             <H2Title text="Playtesting" size="96px" />

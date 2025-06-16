@@ -2,7 +2,7 @@ import Image from "next/image";
  
 export default function SystemRequirements() {
   return (
-    <section className="hidden sm:flex flex-col items-center justify-center bg-black text-white min-h-screen py-12 px-4">
+    <section className="hidden sm:flex flex-col items-center justify-center bg-black text-white min-h-screen py-12 px-4 relative">
       <div className="flex flex-col items-center w-full max-w-4xl">
         <h1 className="text-4xl md:text-5xl font-germania mb-12 text-center">
           SYSTEM REQUIREMENTS
@@ -19,16 +19,7 @@ export default function SystemRequirements() {
           />
          
         </div>
- 
-        <div className="relative w-full max-w-[350px] mt-16 h-5">
-          <Image
-            src="/images/effects/gradientline.png"
-            alt="Decorative gradient line"
-            fill
-            className="object-contain"
-            sizes="350px"
-          />
-        </div>
+        <img src={"/images/effects/gradientline.png"} className='absolute bottom-[0] left-1/2 -translate-x-1/2' />
       </div>
     </section>
   );
