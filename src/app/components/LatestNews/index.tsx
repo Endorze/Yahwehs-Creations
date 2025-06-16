@@ -18,11 +18,11 @@ export default function LatestNews() {
   }, []);
 
   const handleNewsClick = (id: number) => {
-    router.push(`/news/${id}`);
+    router.push(`/fullnews/${id}`);
   };
 
   const handleAllNewsClick = () => {
-    router.push('/blog');
+    router.push('/fullnews');
   };
 
   if (latestNews.length === 0) return null;

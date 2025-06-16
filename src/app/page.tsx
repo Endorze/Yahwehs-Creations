@@ -13,8 +13,21 @@ export default function Home() {
       <Herosection />
       <SupporterPack/>
       <OurCreations />
+    <>
+      <div className="flex flex-col min-h-screen items-center justify-center">
+        <PlayButton />
+        <h1 className="text-4xl font-bold text-blue-600">
+          Hello Yahweh's Creations fans
+        </h1>
+        <H2Title text="Test title" size="72px"/>
+        <H3Title text="Test title" size="32px"/>
+      </div>
+    <div className="flex min-h-screen items-center justify-center bg-gray-100">
+        <h1 className="text-4xl font-bold text-blue-600">Hello Tailwind! And goodmorning Vietnam!</h1>
     </div>
+    <SupporterPack/>
     <LatestNews />
+    
  </>
   );
 

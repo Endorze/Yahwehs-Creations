@@ -14,15 +14,17 @@ const OfficialMediaSection = () => {
           <H3Title text="YAHWEH REPRESENTS " size="24px" />
           </div>
           <div className="grid grid-cols-1   gap-4 justify-center items-center md:grid-cols-3  sm:grid-cols-2">
-           <OfficialMediaCard/>
-           <OfficialMediaCard/>
-           <OfficialMediaCard/>
-           <OfficialMediaCard/>
-           <OfficialMediaCard/>
-           <OfficialMediaCard/>
-           <OfficialMediaCard/>
-           <OfficialMediaCard/>
-           <OfficialMediaCard/>
+          <OfficialMediaCard image="/images/sectionbackgrounds/whisperscathedral.png"/>
+           <OfficialMediaCard image="/images/values/values.png"/>
+           <OfficialMediaCard />
+           <OfficialMediaCard image="/images/monsters/angel.png"/>
+
+           <OfficialMediaCard image="/images/monsters/snails.png"/>
+           <OfficialMediaCard image="/images/values/goals.png"/>
+           <OfficialMediaCard image="/images/newsarticle/angel.png"/>
+           <OfficialMediaCard image="/images/values/vision.png"/>
+
+           <OfficialMediaCard image="/images/sectionbackgrounds/pocelainlarva.png"/>
           </div>
         </div>
 

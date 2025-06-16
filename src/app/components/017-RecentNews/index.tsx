@@ -1,6 +1,6 @@
 "use client"
 import { useState } from "react"
-import { newsItems } from "@/data/news"
+import { NewsItems } from "@/data/NewsItem"
 import H2Title from "../H2Title/H2Title"
 import Link from "next/link"
 
@@ -47,7 +47,7 @@ const ImagesData = ({ image, text }: ImageProp) => {
 }
 
 const RecentNews = () => {
-    const News: NewsProp[] = newsItems
+    const News: NewsProp[] = NewsItems
     const [visibleCount, setVisibleCount] = useState(3)
 
     const loadMore = () => {
@@ -83,7 +83,7 @@ const RecentNews = () => {
             )}
 
             <div className="flex items-center justify-center w-full -mt-10 p-[3px]">
-                <img src="/images/effects/gradientline.png" alt="Gradient Line" />
+                <img src="/images/effects/gradientline.png" alt="Gradient Line" width="auto" height= "auto"/>
             </div>
         </div>
     )

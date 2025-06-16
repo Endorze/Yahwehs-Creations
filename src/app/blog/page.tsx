@@ -1,4 +1,5 @@
 import RecentNews from "../components/017-RecentNews";
+import MeetTheCreatures from "../components/MeetTheCreatures";
 import BlogHeroSection from "../components/BlogHeroSection/BlogHeroSection";
 import FAQSection from "../components/FAQSection/FAQSection";
 import SystemRequirements from "../components/system-requirements/system-requirements";
