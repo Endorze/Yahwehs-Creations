@@ -54,10 +54,10 @@ const CreditsAboutUs = () => {
                 </div>
                 <div className="flex   md:items-center md:justify-center">
                   <Image
-                    src="/images/recropgothic.png"
+                    src="/images/credits/classimage.png"
                     alt="whitecloth"
-                    width={300}
-                    height={300}
+                    width={400}
+                    height={400}
                   />
                 </div>
               </div>
