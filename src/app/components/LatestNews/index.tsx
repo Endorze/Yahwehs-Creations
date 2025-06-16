@@ -19,7 +19,7 @@ export default function LatestNews() {
   }, []);
 
   const handleNewsClick = (id: number) => {
-    router.push(`/news/${id}`);
+    router.push(`/fullnews/${id}`);
   };
 
   const handleAllNewsClick = () => {
