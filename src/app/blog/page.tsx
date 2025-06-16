@@ -9,6 +9,13 @@ import AlexTestSystemRequirements from "../components/021-AlexTestSystemRequirem
 
 export default function BlogPage() {
   return (
+    <section >
+     <MeetTheCreatures />
+     <RecentNews/>
+  <OfficialMediaSection/>
+    </section>
+  
+  
     <>
     <main className="relative">
       <BlogHeroSection />
