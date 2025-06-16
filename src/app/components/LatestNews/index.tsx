@@ -34,7 +34,6 @@ export default function LatestNews() {
 
   if (latestNews.length === 0) return null;
 
-  // Show full news view if a news item is selected
   if (selectedNews) {
     return (
       <section className="w-full bg-[#1B1B1B] py-8 px-4">
