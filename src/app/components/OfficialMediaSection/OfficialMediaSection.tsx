@@ -3,12 +3,14 @@ import H3Title from "../H3Title/H3Title";
 import Image from "next/image";
 
 import OfficialMediaCard from "../OfficialMediaCard";
+import Container from "../Container/container";
 
 const OfficialMediaSection = () => {
   return (
     <div className="bg-[url('/images/sectionbackgrounds/officialmedia.png')] bg-cover bg-center bg-no-repeat">
+      <Container>
 
-        <div className="md:py-20 md:px-40 py-4 px-4 uppercase ">
+        <div className="md:py-4 px-4 uppercase ">
           <div className="mb-10">
           <H2Title text="Official Media " size="48px" />
           <H3Title text="YAHWEH REPRESENTS " size="24px" />
@@ -36,6 +38,7 @@ const OfficialMediaSection = () => {
             height={500}
           />
         </div>
+      </Container>
       </div>
 
   );

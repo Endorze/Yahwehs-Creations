@@ -1,18 +1,20 @@
 import FeatureSection from '../018FeatureSection';
 import Image from 'next/image';
 import H2Title from '../H2Title/H2Title';
+import Container from '../Container/container';
 
 
 const MeetTheCreatures = () => {
     return (
-         <section className="relative bg-black text-white pt-16 pb-32">
+            <section className="relative bg-black text-white pt-16 pb-32">
+        <Container>
             <div className="px-6 text-center md:text-left md:px-36 mb-12">
-                <H2Title text="Meet the Creatures" size="32px" />
+                <H2Title text="MEET THE CREATURES" size="32px" />
             </div>
             <FeatureSection
                 name="Seraphim"
                 subtitle="DO NOT BE AFRAID"
-                description="An eternally rotating circle of golden rings and watchful eyes, surrounded by six wings as sharp as the silence in cathedral aisles. It hovers without a sound, yet every motion trembles the world around it — as if heaven itself is being restrained."
+                description="Twisted by divine irony, loyal clerics became monstrous angels—flesh torn, minds warped. Corrupted by desire, they now guard the cathedral with arcane might, ensuring none defy the Archbishop or disturb the god they once prayed to—and betrayed."
                 image="/images/monsters/angel.png"
             />
 
@@ -23,16 +25,10 @@ const MeetTheCreatures = () => {
                 image="/images/monsters/snails.png"
                 reverse
             />
+        </Container>
 
             {/* Add gradient effect at the bottom */}
-            <div className="absolute bottom-0 left-1/2 -translate-x-1/2 z-0 pointer-events-none">
-                <Image
-                    src="/images/effects/gradientline.png"
-                    alt="Gradient Line"
-                    width={800}
-                    height={100}
-                />
-            </div>
+            <img src={"/images/effects/gradientline.png"} className="absolute bottom-0 left-1/2 -translate-x-1/2" />
         </section>
     );
 };
