@@ -22,7 +22,7 @@ export default function LatestNews() {
   };
 
   const handleAllNewsClick = () => {
-    router.push('/blog');
+    router.push('/fullnews');
   };
 
   if (latestNews.length === 0) return null;
