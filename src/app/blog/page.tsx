@@ -1,13 +1,16 @@
-import SystemRequirements from "../components/021-systemRequirements";
+
+import RecentNews from "../components/017-RecentNews";
+import MeetTheCreatures from "../components/MeetTheCreatures";
+import OfficialMediaSection from "../components/OfficialMediaSection/OfficialMediaSection";
 
 export default function BlogPage() {
   return (
-    <section className="p-8">
-      <h1 className="text-4xl font-bold mb-4">Blog Page</h1>
-      <p className="text-lg text-gray-700">
-        Welcome to our Blog page. Here you'll find information about our mission, team, and story.
-      </p>
-      <SystemRequirements />
+    <section >
+     <MeetTheCreatures />
+     <RecentNews/>
+  <OfficialMediaSection/>
     </section>
+  
+  
   );
 }
