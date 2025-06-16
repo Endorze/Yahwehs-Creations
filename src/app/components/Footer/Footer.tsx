@@ -41,17 +41,17 @@ const Footer = () => {
                     </div>
                     <H3Title text='Media Webdevelopers' size='12px' />
                     <div className='pt-2'>
-                        <a href='/https://www.linkedin.com/in/alexander-hallgren-5a4a501aa/' className="hover:underline"><p>Alexander Hallgren</p></a>
-                        <a href='/' className="hover:underline"><p>Andrew Julius Kalumba</p></a>
-                        <a href='/' className="hover:underline"><p>Moshira Abdelwahad</p></a>
-                        <a href='/' className="hover:underline"><p>Mariym Aqbal</p></a>
-                        <a href='/' className="hover:underline"><p>Vineetha Veerapu</p></a>
-                        <a href='/' className="hover:underline"><p>Yasmine Borghol</p></a>
-                        <a href='/' className="hover:underline"><p>Saba Waheed</p></a>
+                        <a href='https://www.linkedin.com/in/alexander-hallgren-5a4a501aa/' target="_blank" rel="noopener noreferrer" className='hover:underline'><p>Alexander Hallgren</p></a>
+                        <a href='http://linkedin.com/in/andrew-julius-kalumba-82b02b348' target="_blank" rel="noopener noreferrer" className="hover:underline"><p>Andrew Julius Kalumba </p></a>
+                        <a href='https://www.linkedin.com/in/mushira-salah-1659612a9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' target="_blank" rel="noopener noreferrer" className="hover:underline"><p>Moshira Abdelwahad</p></a>
+                        <a href='https://www.linkedin.com/in/mariym-aqbal-63741636a?original_referer=https%3A%2F%2Fstatics.teams.cdn.office.net%2F' target="_blank" rel="noopener noreferrer" className="hover:underline"><p>Mariym Aqbal</p></a>
+                        <a href='https://www.linkedin.com/in/vineetha-veerapu/' target="_blank" rel="noopener noreferrer" className="hover:underline"><p>Vineetha Veerapu</p></a>
+                        <a href='https://www.linkedin.com/in/yasmineborghol/' target="_blank" rel="noopener noreferrer" className="hover:underline"><p>Yasmine Borghol</p></a>
+                        <a href='https://www.linkedin.com/in/saba-waheed-0bb188367/' target="_blank" rel="noopener noreferrer" className="hover:underline"><p>Saba Waheed</p></a>
                     </div>
                     <div className='pt-2'>
                         <H3Title text='UX DESIGNER' size='12px' />
-                        <a href='https://www.linkedin.com/in/alexander-hallgren-5a4a501aa/'><p>Alexander Hallgren</p></a>
+                        <a href='https://www.linkedin.com/in/alexander-hallgren-5a4a501aa/' className='hover:underline'><p>Alexander Hallgren</p></a>
                     </div>
                 </div>
             </div>
@@ -90,17 +90,17 @@ const Footer = () => {
                             </div>
                             <H3Title text='Media Webdevelopers' size='12px' />
                             <div className='pt-2'>
-                                <a href='https://www.linkedin.com/in/alexander-hallgren-5a4a501aa/'><p>Alexander Hallgren</p></a>
-                                <a href='http://linkedin.com/in/andrew-julius-kalumba-82b02b348'><p>Andrew Julius Kalumba </p></a>
-                                <a href='https://www.linkedin.com/in/mushira-salah-1659612a9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'><p>Moshira Abdelwahad</p></a>
-                                <a href='linkedin.com/in/mariym-aqbal-63741636'><p>Mariym Aqbal</p></a>
-                                <a href='https://www.linkedin.com/in/vineetha-veerapu/'><p>Vineetha Veerapu</p></a>
-                                <a href='https://www.linkedin.com/in/yasmineborghol/'><p>Yasmine Borghol</p></a>
-                                <a href='https://www.linkedin.com/in/saba-waheed-0bb188367/'><p>Saba Waheed</p></a>
+                                <a href='https://www.linkedin.com/in/alexander-hallgren-5a4a501aa/' target="_blank" rel="noopener noreferrer" className='hover:underline'><p>Alexander Hallgren</p></a>
+                                <a href='http://linkedin.com/in/andrew-julius-kalumba-82b02b348' target="_blank" rel="noopener noreferrer" className="hover:underline"><p>Andrew Julius Kalumba </p></a>
+                                <a href='https://www.linkedin.com/in/mushira-salah-1659612a9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' target="_blank" rel="noopener noreferrer" className="hover:underline"><p>Moshira Abdelwahad</p></a>
+                                <a href='https://www.linkedin.com/in/mariym-aqbal-63741636a?original_referer=https%3A%2F%2Fstatics.teams.cdn.office.net%2F' target="_blank" rel="noopener noreferrer" className="hover:underline"><p>Mariym Aqbal</p></a>
+                                <a href='https://www.linkedin.com/in/vineetha-veerapu/' target="_blank" rel="noopener noreferrer" className="hover:underline"><p>Vineetha Veerapu</p></a>
+                                <a href='https://www.linkedin.com/in/yasmineborghol/' target="_blank" rel="noopener noreferrer" className="hover:underline"><p>Yasmine Borghol</p></a>
+                                <a href='https://www.linkedin.com/in/saba-waheed-0bb188367/' target="_blank" rel="noopener noreferrer" className="hover:underline"><p>Saba Waheed</p></a>
                             </div>
                             <div className='pt-2'>
                                 <H3Title text='UX DESIGNER' size='12px' />
-                                <a href='https://www.linkedin.com/in/alexander-hallgren-5a4a501aa/'><p>Alexander Hallgren</p></a>
+                                <a href='https://www.linkedin.com/in/alexander-hallgren-5a4a501aa/' target="_blank" rel="noopener noreferrer" className='hover:underline'><p>Alexander Hallgren</p></a>
                             </div>
                         </div>
                     </div>
