@@ -3,7 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const Header = () => {
   const pathname = usePathname();
@@ -12,6 +12,15 @@ const Header = () => {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+
+  useEffect(() => {
+    if (isOpen) {
+      document.body.classList.add("overflow-hidden");
+    } else {
+      document.body.classList.remove("overflow-hidden");
+    }
+  }, [isOpen]);
+
 
   const navItems = [
     {
@@ -45,11 +54,10 @@ const Header = () => {
           <Link
             key={item.href}
             href={item.href}
-            className={`py-1 ${
-              pathname === item.href
+            className={`py-1 ${pathname === item.href
                 ? activeClass
                 : "transition-all duration-300 hover:underline hover:underline-offset-8 hover:decoration-[#EABB00] hover:decoration-2"
-            }`}
+              }`}
           >
             {item.label}
           </Link>
@@ -91,11 +99,10 @@ const Header = () => {
               <Link
                 key={item.href}
                 href={item.href}
-                className={`py-1 ${
-                  pathname === item.href
+                className={`py-1 ${pathname === item.href
                     ? "underline underline-offset-8 decoration-[#EABB00] decoration-2"
                     : ""
-                }`}
+                  }`}
                 onClick={toggleMenu}
               >
                 {item.label}

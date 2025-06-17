@@ -14,7 +14,7 @@ const TrailerSection = () => {
             <Container>
 
                 {/* Content */}
-                <div className="relative z-10 max-w-4xl w-full mx-auto">
+                <div className="relative max-w-4xl w-full mx-auto">
                     {/* Top Text */}
                     <div className="text-left">
                         <H2Title text="HOW CAN WE CERTAIN THAT ANGELS MEAN NO HARM" size="25px" />
