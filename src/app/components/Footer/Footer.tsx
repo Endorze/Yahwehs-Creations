@@ -57,12 +57,12 @@ const Footer = () => {
             </div>
 
             {/*This is where i make a mobile footer to display elements in a different way (this is because the layout needs to be altered in more than flex-column to look similar to the design*/}
-            <div className='flex flex-col items-center gap-10 overflow-hidden lg:hidden'>
+            <div className='flex relative flex-col items-center gap-10 overflow-hidden lg:hidden'>
                 <div className="max-w-6xl mx-auto px-6">
                     <div className='max-w-md'>
                         <div className='flex'>
+                            <Image src={letters} alt="image of letters" className='h-25 w-auto absolute right-0' />
                             <H2Title text='JOIN THE COMMUNITY' size='48px' />
-                            <Image src={letters} alt="image of letters" className='h-25' />
                         </div>
                         <p style={{ color: "#808080" }}>We've got an incredible community spread all over the world, so why not join us! Join the discussion on Discord, show us your fan art, chat with us on Twitter and sign up for the official newsletter!</p>
                         <a href='/'><Image src={img} alt='social icons' className='pt-6 pb-6' /></a>
