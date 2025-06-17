@@ -14,12 +14,15 @@ const Header = () => {
   };
 
   useEffect(() => {
-    if (isOpen) {
-      document.body.classList.add("overflow-hidden");
-    } else {
-      document.body.classList.remove("overflow-hidden");
+    if (typeof document !== "undefined") {
+      if (isOpen) {
+        document.body.classList.add("overflow-hidden");
+      } else {
+        document.body.classList.remove("overflow-hidden");
+      }
     }
   }, [isOpen]);
+
 
 
   const navItems = [
@@ -55,8 +58,8 @@ const Header = () => {
             key={item.href}
             href={item.href}
             className={`py-1 ${pathname === item.href
-                ? activeClass
-                : "transition-all duration-300 hover:underline hover:underline-offset-8 hover:decoration-[#EABB00] hover:decoration-2"
+              ? activeClass
+              : "transition-all duration-300 hover:underline hover:underline-offset-8 hover:decoration-[#EABB00] hover:decoration-2"
               }`}
           >
             {item.label}
@@ -100,8 +103,8 @@ const Header = () => {
                 key={item.href}
                 href={item.href}
                 className={`py-1 ${pathname === item.href
-                    ? "underline underline-offset-8 decoration-[#EABB00] decoration-2"
-                    : ""
+                  ? "underline underline-offset-8 decoration-[#EABB00] decoration-2"
+                  : ""
                   }`}
                 onClick={toggleMenu}
               >
