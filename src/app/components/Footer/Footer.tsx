@@ -57,7 +57,7 @@ const Footer = () => {
             </div>
 
             {/*This is where i make a mobile footer to display elements in a different way (this is because the layout needs to be altered in more than flex-column to look similar to the design*/}
-            <div className='flex flex-col items-center gap-10 lg:hidden'>
+            <div className='flex flex-col items-center gap-10 overflow-hidden lg:hidden'>
                 <div className="max-w-6xl mx-auto px-6">
                     <div className='max-w-md'>
                         <div className='flex'>
