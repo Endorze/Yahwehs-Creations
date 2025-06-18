@@ -14,7 +14,7 @@ const FAQSection = () => {
                         <div className="flex-1">
                             <H3Title text="THE VISION" size="32px" />
                             <p style={{ color: "#808080" }}>
-                                We believe games can be more than entertainment — they can be places of tension, beauty, and reflection.Yahweh’s Cathedral is built to unsettle, to mesmerize, and to linger. Our vision is to craft a world where the sacred becomes strange, and every shadow might conceal something divine... or something else entirely.
+                                We believe games can be more than entertainment — they can be places of tension, beauty, and reflection. OK'RHAMS Cathedral is built to unsettle, to mesmerize, and to linger. Our vision is to craft a world where the sacred becomes strange, and every shadow might conceal something divine... or something else entirely.
                                 We don’t hold your hand. We dim the lights — and ask you to walk forward.
                             </p>
                         </div>
@@ -36,9 +36,9 @@ const FAQSection = () => {
                             </div>
                         </div>
                         <div className="flex-1">
-                            <H3Title text="THE VISION" size="32px" />
+                            <H3Title text="OUR VALUES" size="32px" />
                             <p style={{ color: "#808080" }}>
-                                We know that Yahweh’s Cathedral touches on heavy, sometimes disturbing themes — faith, guilt, death, judgment. That’s intentional.
+                                We know that Ok'Rhams Cathedral touches on heavy, sometimes disturbing themes — faith, guilt, death, judgment. That’s intentional.
                                 But it’s never for shock value. It’s because we believe games can challenge, provoke, and ask uncomfortable questions.
                                 That said: If the tone, the themes, or the atmosphere don’t resonate with you — we completely understand.This game isn’t for everyone. It wasn’t meant to be. But for those it is meant for — it will speak deeply.
                             </p>
@@ -55,7 +55,7 @@ const FAQSection = () => {
                         <div>
                             <H3Title text="THE VISION" size="24px" />
                             <p style={{ color: "#808080", fontSize: "16px" }}>
-                                We believe games can be more than entertainment — they can be places of tension, beauty, and reflection.Yahweh’s Cathedral is built to unsettle, to mesmerize, and to linger. Our vision is to craft a world where the sacred becomes strange, and every shadow might conceal something divine... or something else entirely.
+                                We believe games can be more than entertainment — they can be places of tension, beauty, and reflection. Ok'Rhams Cathedral is built to unsettle, to mesmerize, and to linger. Our vision is to craft a world where the sacred becomes strange, and every shadow might conceal something divine... or something else entirely.
                                 We don’t hold your hand. We dim the lights — and ask you to walk forward.
                             </p>
                         </div>
@@ -63,7 +63,7 @@ const FAQSection = () => {
                         <div>
                             <H3Title text="THE VISION" size="24px" />
                             <p style={{ color: "#808080", fontSize: "16px" }}>
-                                We know that Yahweh’s Cathedral touches on heavy, sometimes disturbing themes — faith, guilt, death, judgment. That’s intentional.
+                                We know that Ok'Rhams Cathedral touches on heavy, sometimes disturbing themes — faith, guilt, death, judgment. That’s intentional.
                                 But it’s never for shock value. It’s because we believe games can challenge, provoke, and ask uncomfortable questions.
                                 That said: If the tone, the themes, or the atmosphere don’t resonate with you — we completely understand.This game isn’t for everyone. It wasn’t meant to be. But for those it is meant for — it will speak deeply.
                             </p>
