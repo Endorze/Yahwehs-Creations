@@ -5,7 +5,7 @@ import Container from '../Container/container';
 
 export default function HeroSection() {
   return (
-    <section className="h-auto lg:relative w-full min-h-screen bg-[#504848] overflow-hidden flex flex-col">
+    <section className="h-auto lg:relative w-full bg-[#504848] overflow-hidden flex flex-col">
       <div
         className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
         style={{
