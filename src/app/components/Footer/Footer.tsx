@@ -3,6 +3,7 @@ import img from "../../../../public/images/social/social_icons_orange.png"
 import letters from "../../../../public/images/social/letters-removebg-preview.png"
 import H2Title from '../H2Title/H2Title';
 import H3Title from '../H3Title/H3Title';
+import PlayButton from '../PlayButton/PlayButton';
 
 const Footer = () => {
     return (
@@ -18,7 +19,9 @@ const Footer = () => {
                         <H2Title text='JOIN THE COMMUNITY' size='48px' />
                     </div>
                     <p style={{ color: "#808080" }}>We've got an incredible community spread all over the world, so why not join us! Join the discussion on Discord, show us your fan art, chat with us on Twitter and sign up for the official newsletter!</p>
-                    <a href='/'><Image src={img} alt='social icons' className='pt-6' /></a>
+                    <div className='pt-6'>
+                    <PlayButton />
+                    </div>
                 </div>
                 <div className='w-xs'>
                     <H2Title text='LOCATION' size='32px' />
@@ -65,7 +68,9 @@ const Footer = () => {
                             <H2Title text='JOIN THE COMMUNITY' size='48px' />
                         </div>
                         <p style={{ color: "#808080" }}>We've got an incredible community spread all over the world, so why not join us! Join the discussion on Discord, show us your fan art, chat with us on Twitter and sign up for the official newsletter!</p>
-                        <a href='/'><Image src={img} alt='social icons' className='pt-6 pb-6' /></a>
+                        <div className='py-4'>
+                        <PlayButton />
+                        </div>
                     </div>
                     <div className='flex gap-8'>
                         <div className='flex-col'>

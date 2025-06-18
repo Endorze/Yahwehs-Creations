@@ -16,7 +16,7 @@ export default function HeroSection() {
 
         <div className="relative flex-grow w-full max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-12 pt-10 sm:pt-16 flex flex-col items-center sm:items-start text-center sm:text-left gap-6 pb-12">
           <img
-            src="/images/yahwehhero.png"
+            src="/images/okrhams.png"
             alt="Yahweh Hero"
             className="w-[180px] sm:w-[250px] md:w-[320px] lg:w-[409px]"
           />
@@ -30,7 +30,7 @@ export default function HeroSection() {
 
           <div className="sm:ml-[-10px]">
             <a
-              href="https://yourgame.itch.io"
+              href="https://futuregames.itch.io/yahwehs-creation"
               target="_blank"
               rel="noopener noreferrer"
               className="relative w-[180px] h-[60px] flex items-center justify-center sm:justify-start hover:scale-105 transition-transform"
@@ -56,7 +56,7 @@ export default function HeroSection() {
               href="https://futuregames.itch.io/yahwehs-creation">
 
               <img
-                src="/images/whitesteam.png"
+                src="/images/okrhamslogo.png"
                 alt="Steam Logo"
                 className="h-[60px] w-auto object-contain"
               />

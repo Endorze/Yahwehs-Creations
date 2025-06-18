@@ -25,19 +25,21 @@ const SupporterPack = () => {
         <div className="w-full flex flex-col items-end bg-[url('/images/sectionbackgrounds/catacombs.png')] bg-cover bg-center">
             <div className="sm:w-1/2 flex flex-col justify-center items-center bg-black text-base m-[30px] p-[20px] sm:m-0 sm:p-0 lg:m-0">
 
-                <PackInformation image="yahwehsupport_with_orange_glow.png" text="Yawhweh support Image"/>
+                <div className="p-12 lg:p-24">
+                <PackInformation image="supporterpack.png" text="Yawhweh support Image"/>
+                </div>
 
                 <div className="relative flex items-center justify-center">
                     <PackInformation image="effects/shadow.png" text="Shadow Image" />
 
                     <div className="absolute z-10 flex flex-row gap-8 sm:p-4 p-0 text-white">
                         <button
-                            className={`hover:text-amber-800 ${active === "overview" ? "text-[#e6a54c] font-bold" : ""}`}
+                            className={`cursor-pointer hover:text-amber-800 ${active === "overview" ? "text-[#e6a54c] font-bold" : ""}`}
                             onClick={() => setActive("overview")}>
                             Overview
                         </button>
                         <button
-                            className={`hover:text-amber-800 ${active === "feature" ? "text-[#e6a54c] font-bold" : ""}`}
+                            className={`cursor-pointer hover:text-amber-800 ${active === "feature" ? "text-[#e6a54c] font-bold" : ""}`}
                             onClick={() => setActive("feature")}>
                             Feature
                         </button>

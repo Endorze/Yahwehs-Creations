@@ -28,10 +28,6 @@ const PlaytestingSection = () => {
                     <div className="w-[400]">
                         <img src={"images/playtesting/image.png"} className="h-auto flex justify-end" />
                         <div className="flex justify-between pt-4">
-                            <div className="w-50">
-                                <p>Join our wonderful community on Discord</p>
-                            </div>
-                            <a href="/"><img src={"images/playtesting/discord.png"} className="block w-20" /></a>
                         </div>
                     </div>
                 </div>
@@ -46,7 +42,7 @@ const PlaytestingSection = () => {
                 <div className="flex flex-col items-center z-1 gap-24 relative z-2">
                     <div className="flex flex-1 flex-col gap-2">
                         <div>
-                            <H2Title text="Playtesting" size="72px" />
+                            <h1 style={{fontSize: "72px"}}>Playtesting</h1>
                         </div>
                         <div>
                             <H3Title text="NOW IN ALPHA" size="48px" />
@@ -66,9 +62,9 @@ const PlaytestingSection = () => {
                         <div className="max-w-[400]">
                             <div className="flex justify-between pt-4 items-center">
                                 <div className="w-50">
-                                    <p style={{ fontSize: "12px" }}>Join our wonderful community on Discord</p>
+                                    <p style={{ fontSize: "12px" }}>Play our game, it's free... for now</p>
                                 </div>
-                                <a href="/"><img src={"images/playtesting/discord.png"} className="block w-20" /></a>
+
                             </div>
                         </div>
 
