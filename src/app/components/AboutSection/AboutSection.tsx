@@ -6,7 +6,7 @@ const sections = [
   {
     title: "Goals",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis.",
+      "Our goal is to craft a deeply immersive psychological horror experience where players uncover unsettling truths buried beneath faith and devotion. Through atmospheric storytelling, symbolic environments, and morally complex choices, we aim to draw players into a descent that challenges both their survival instincts and their understanding of what it means to be saved.",
     image: "/images/values/goals.png",
     href: "/blog#faq",
   },
