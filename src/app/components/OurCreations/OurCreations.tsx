@@ -1,10 +1,8 @@
 'use client';
-
 import FeatureSection from '../018FeatureSection';
 import Image from 'next/image';
 import H2Title from '../H2Title/H2Title';
 import Container from '../Container/container';
-
 
 const MeetTheCreatures = () => {
   return (
@@ -31,7 +29,7 @@ const MeetTheCreatures = () => {
       </Container>
 
       {/* Gradient at the bottom */}
-      <Image
+      <img
         src="/images/effects/gradientline.png"
         className="absolute bottom-0 left-1/2 -translate-x-1/2"
         alt="gradient line"
