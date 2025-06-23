@@ -1,10 +1,17 @@
+"use client"
 import Button from "@/app/components/Button"
 import { NewsItems } from "@/data/NewsItem"
+import { useRouter } from "next/navigation"
 
 const NewsDetail = async ({ params }: { params: Promise<{ news: string }> }) => {
     const { news } = await params
     const newsId = parseInt(news)
     const newsData = NewsItems.find((item: { id: number }) => item.id === newsId)
+
+    const router = useRouter()
+    const handleClick = () => {
+        router.back();
+    }
 
     return (
         <>
@@ -21,7 +28,7 @@ const NewsDetail = async ({ params }: { params: Promise<{ news: string }> }) => 
                         </div>
 
                         <div className="text-left p-4 pb-16 uppercase">
-                            <Button text="back" href="/blog" />
+                            <Button text="back" onClick={handleClick}/>
                         </div>
                     </div>
                 ) : (
