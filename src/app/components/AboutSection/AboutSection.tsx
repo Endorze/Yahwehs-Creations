@@ -6,7 +6,7 @@ const sections = [
   {
     title: "Goals",
     description:
-      "Our goal is to craft a deeply immersive psychological horror experience where players uncover unsettling truths buried beneath faith and devotion. Through atmospheric storytelling, symbolic environments, and morally complex choices, we aim to draw players into a descent that challenges both their survival instincts and their understanding of what it means to be saved.",
+      "Our primary goal is to create a game that resonates with a mature audience — players who crave something deeper, darker, and more challenging than what mainstream titles often deliver. We’re building an experience that weaves first-person exploration, puzzle mechanics, and psychological dread into a seamless whole. If you’re drawn to slow-burn horror, cryptic symbols, and the thrill of decoding a world that refuses to explain itself — this descent is meant for you.",
     image: "/images/values/goals.png",
     href: "/blog#faq",
   },
