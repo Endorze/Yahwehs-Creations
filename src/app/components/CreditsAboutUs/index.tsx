@@ -28,7 +28,8 @@ const CreditsAboutUs = () => {
                 <CrewCard title="Designers">
                   <h3>John Geir Andersson</h3>
                   <h3>Federcio Garcia</h3>
-                  <h3>Daniel Atterby Pontus Björkande</h3>
+                  <h3>Daniel Atterby</h3>
+                  <h3>Pontus Björkande</h3>
                 </CrewCard>
                 <CrewCard title="Programmers">
                   <h3>Orkun Arslantürk</h3>

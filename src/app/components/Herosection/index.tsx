@@ -5,7 +5,7 @@ import Container from '../Container/container';
 
 export default function HeroSection() {
   return (
-    <section className="h-auto lg:relative w-full min-h-screen bg-[#504848] overflow-hidden flex flex-col">
+    <section className="h-auto lg:relative w-full bg-[#504848] overflow-hidden flex flex-col">
       <div
         className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
         style={{
@@ -14,9 +14,9 @@ export default function HeroSection() {
       />
       <Container>
 
-        <div className="relative z-10 flex-grow w-full max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-12 pt-10 sm:pt-16 flex flex-col items-center sm:items-start text-center sm:text-left gap-6 pb-12">
+        <div className="relative flex-grow w-full max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-12 pt-10 sm:pt-16 flex flex-col items-center sm:items-start text-center sm:text-left gap-6 pb-12">
           <img
-            src="/images/yahwehhero.png"
+            src="/images/okrhams.png"
             alt="Yahweh Hero"
             className="w-[180px] sm:w-[250px] md:w-[320px] lg:w-[409px]"
           />
@@ -28,9 +28,9 @@ export default function HeroSection() {
             {heroDescription}
           </p>
 
-          <div className="z-20 sm:ml-[-10px]">
+          <div className="sm:ml-[-10px]">
             <a
-              href="https://yourgame.itch.io"
+              href="https://futuregames.itch.io/yahwehs-creation"
               target="_blank"
               rel="noopener noreferrer"
               className="relative w-[180px] h-[60px] flex items-center justify-center sm:justify-start hover:scale-105 transition-transform"
@@ -46,7 +46,7 @@ export default function HeroSection() {
         </div>
 
         <div
-          className="relative z-10 w-full h-[160px] flex items-center justify-between sm:bg-no-repeat bg-cover bg-bottom"
+          className="relative w-full h-[160px] flex items-center justify-between sm:bg-no-repeat bg-cover bg-bottom"
           style={{
             backgroundImage: "url('/images/effects/shadow.png')",
           }}
@@ -56,7 +56,7 @@ export default function HeroSection() {
               href="https://futuregames.itch.io/yahwehs-creation">
 
               <img
-                src="/images/whitesteam.png"
+                src="/images/okrhamslogo.png"
                 alt="Steam Logo"
                 className="h-[60px] w-auto object-contain"
               />
@@ -68,7 +68,7 @@ export default function HeroSection() {
               className="text-white font-Germania_One text-[14px] sm:text-[20px] text-right leading-snug"
               style={{ textShadow: '0px 4px 4px rgba(0,0,0,0.25)' }}
             >
-              Can you solve the mystery behind <br /> Yahweh’s Creations?
+              Can you solve the mystery behind <br /> Ok'Rhams Creations?
             </p>
           </div>
         </div>

@@ -45,7 +45,7 @@ export default function LatestNews() {
           </div>
           <button
             onClick={handleAllNewsClick}
-            className="text-[#808080] hover:text-[#e6a54c] transition-colors duration-300 text-sm"
+            className="text-[#808080] hover:text-[#e6a54c] transition-colors duration-300 text-sm cursor-pointer"
             style={{ fontFamily: 'Germania One, cursive' }}
           >
             ALL NEWS
