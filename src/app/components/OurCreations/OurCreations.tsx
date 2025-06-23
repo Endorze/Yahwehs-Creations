@@ -1,41 +1,41 @@
 'use client';
-import FeatureSection from '../018FeatureSection';
-import Image from 'next/image';
-import H2Title from '../H2Title/H2Title';
-import Container from '../Container/container';
 
-const MeetTheCreatures = () => {
+import Button from "../Button";
+import H2Title from "../H2Title/H2Title";
+
+export default function OurCreations() {
   return (
-    <section className="relative bg-black text-white pt-16 pb-32">
-      <Container>
-        <div className="px-6 sm:px-10 md:px-20 lg:px-36 text-center md:text-left mb-12">
-          <H2Title text="MEET THE CREATURES" size="32px" />
+    <div className="relative">
+      <section className="hidden lg:flex relative h-screen w-full overflow-hidden bg-[url('/images/sectionbackgrounds/pocelainlarva.png')] bg-cover bg-center bg-no-repeat px-38 items-center">
+        <div className="max-w-[1200px] w-full mx-auto">
+          <H2Title text="OUR CREATIONS" size="72px" />
+          <p className="max-w-[450px]" style={{ color: "#808080", fontSize: "24px" }}>Are you interested in reading more about our creatures?
+            See the sketches and read about the thought process of
+            our professional designers
+          </p>
+          <div className="pt-6">
+            <Button text="MEET THE CREATURES" href="/blog#creatures" />
+          </div>
+
         </div>
+      </section>
 
-        <FeatureSection
-          name="Seraphim"
-          subtitle="DO NOT BE AFRAID"
-          description="Twisted by divine irony, loyal clerics became monstrous angels—flesh torn, minds warped. Corrupted by desire, they now guard the cathedral with arcane might, ensuring none defy the Archbishop or disturb the god they once prayed to—and betrayed."
-          image="/images/monsters/angel.png"
-        />
+      {/**Här sätter jag mobil responsivitet */}
 
-        <FeatureSection
-          name="The Faceless"
-          subtitle="DON’T LOOK AT THE MASK"
-          description="From the damp corridors beneath the cathedral, it crawls — a bloated, boneless thing dragging the weight of forgotten guilt. Its flesh is soft and raw, constantly folding in on itself as if trying to hide from the gaze of God."
-          image="/images/monsters/snails.png"
-          reverse
-        />
-      </Container>
+      <section className="flex relative h-[400px] w-full overflow-hidden bg-[url('/images/sectionbackgrounds/pocelainlarva.png')] bg-cover bg-right bg-no-repeat items-center px-6 lg:hidden">
+        <div className="max-w-[500px]">
+          <H2Title text="OUR CREATIONS" size="52px" />
+          <p style={{ color: "#808080", fontSize: "16px" }}>Are you interested in reading more about our creatures?
+            See the sketches and read about the thought process of
+            our professional designers
+          </p>
+          <div className="pt-6">
+            <Button text="MEET THE CREATURES" href="/blog#creatures" />
+          </div>
+        </div>
+      </section>
+      <img src={"/images/effects/gradientline.png"} className="absolute bottom-0 left-1/2 -translate-x-1/2" />
+    </div>
 
-      {/* Gradient at the bottom */}
-      <img
-        src="/images/effects/gradientline.png"
-        className="absolute bottom-0 left-1/2 -translate-x-1/2"
-        alt="gradient line"
-      />
-    </section>
   );
-};
-
-export default MeetTheCreatures;
+}
