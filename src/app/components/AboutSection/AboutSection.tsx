@@ -13,7 +13,7 @@ const sections = [
   {
     title: "Vision",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis.",
+      "We believe games can be more than entertainment — they can be places of tension, beauty, and reflection. OK'RHAMS Cathedral is built to unsettle, to mesmerize, and to linger. Our vision is to craft a world where the sacred becomes strange, and every shadow might conceal something divine... or something else entirely.",
     image: "/images/values/vision.png",
     href: "/blog#faq",
   },
