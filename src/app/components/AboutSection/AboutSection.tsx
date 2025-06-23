@@ -20,7 +20,8 @@ const sections = [
   {
     title: "Values",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis.",
+      "We know that Ok'Rhams Cathedral touches on heavy, sometimes disturbing themes — faith, guilt, death, judgment. That’s intentional. That said: If the tone, the themes, or the atmosphere don’t resonate with you — we completely understand. This game isn’t for everyone. It wasn’t meant to be. But for those it is meant for — it will speak deeply.
+",
     image: "/images/values/values.png",
     href: "/blog#faq",
   },
