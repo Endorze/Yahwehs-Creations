@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import img from "../../../../public/images/social/social_icons_orange.png"
 import letters from "../../../../public/images/social/letters-removebg-preview.png"
 import H2Title from '../H2Title/H2Title';
 import H3Title from '../H3Title/H3Title';
@@ -54,7 +53,7 @@ const Footer = () => {
                     </div>
                     <div className='pt-2'>
                         <H3Title text='UX DESIGNER' size='12px' />
-                        <a href='https://www.linkedin.com/in/alexander-hallgren-5a4a501aa/' className='hover:underline'><p>Alexander Hallgren</p></a>
+                        <a href='https://www.linkedin.com/in/alexander-hallgren-5a4a501aa/' target="_blank" className='hover:underline'><p>Alexander Hallgren</p></a>
                     </div>
                 </div>
             </div>

@@ -1,16 +1,14 @@
 import FeatureSection from '../018FeatureSection';
-import Image from 'next/image';
 import H2Title from '../H2Title/H2Title';
 import Container from '../Container/container';
 
 const MeetTheCreatures = () => {
     return (
-        <section id="creatures" className="relative bg-black text-white pt-16 pb-32">
+        <section className="relative bg-black text-white pt-16 pb-32" id='creatures'>
             <Container>
-                <div className="px-6 sm:px-10 md:px-20 lg:px-36 text-center md:text-left mb-12">
+                <div className="px-6 text-center md:text-left md:px-36 mb-12">
                     <H2Title text="MEET THE CREATURES" size="32px" />
                 </div>
-
                 <FeatureSection
                     name="Seraphim"
                     subtitle="DO NOT BE AFRAID"

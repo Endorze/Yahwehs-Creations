@@ -15,7 +15,7 @@ const PlaytestingSection = () => {
                             <H3Title text="NOW IN ALPHA" size="48px" />
                         </div>
                         <div>
-                            <p style={{ fontSize: "24px" }}>Early descent into Yahweh's Cathedral has begun...</p>
+                            <p style={{ fontSize: "24px" }}>Early descent into OK'RHAMS Cathedral has begun...</p>
                         </div>
                         <div className="max-w-[500px]">
                             <p style={{ color: "#808080", fontSize: "16px" }}>We’re currently looking for fearless souls to help test the game. Your feedback shapes the world — and perhaps your survival in it.</p>
@@ -48,7 +48,7 @@ const PlaytestingSection = () => {
                             <H3Title text="NOW IN ALPHA" size="48px" />
                         </div>
                         <div>
-                            <p style={{ fontSize: "24px" }}>Early descent into Yahweh's Cathedral has begun...</p>
+                            <p style={{ fontSize: "24px" }}>Early descent into OK'RHAMS Cathedral has begun...</p>
                         </div>
                         <div className="max-w-[500px]">
                             <p style={{ color: "#808080", fontSize: "16px" }}>We're currently looking for fearless souls to help test the game. Your feedback shapes the world — and perhaps your survival in it.</p>

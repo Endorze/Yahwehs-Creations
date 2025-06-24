@@ -49,7 +49,7 @@ const SupporterPack = () => {
                     <div className="text-white sm:p-5 align-left">
                         <h1 className="pt-5 pb-5 font-bold">
                             {active === "overview"
-                                ? "THE BISHOP OF YAHWEH DEMANDS A SACRIFICE"
+                                ? "THE BISHOP OF OK'RHAM DEMANDS A SACRIFICE"
                                 : "ENTER THE CATACOMBS OF FAITH AND FIRE"}
                         </h1>
 

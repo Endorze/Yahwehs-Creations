@@ -17,7 +17,7 @@ export default function HeroSection() {
         <div className="relative flex-grow w-full max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-12 pt-10 sm:pt-16 flex flex-col items-center sm:items-start text-center sm:text-left gap-6 pb-12">
           <img
             src="/images/okrhams.png"
-            alt="Yahweh Hero"
+            alt="OK'RHAM Hero"
             className="w-[180px] sm:w-[250px] md:w-[320px] lg:w-[409px]"
           />
 

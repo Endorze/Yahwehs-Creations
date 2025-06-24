@@ -136,7 +136,7 @@ The game is being developed over a focused 7-week timeline, allowing us to itera
 export const supportPackInfo: SupporterPackProp2 = [
   {
     overview: `
-      Support Yahweh's Creations on Kickstarter to bring a unique, handcrafted game to life—filled with passion, creativity, and heart.
+      Support OK'RHAMS Creation on Kickstarter to bring a unique, handcrafted game to life—filled with passion, creativity, and heart.
 
       Your backing directly helps improve visuals, sound, and storytelling, all crafted by a dedicated indie team. As a supporter, you'll receive exclusive rewards, early access, and a chance to be part of the game's legacy.
 
@@ -151,14 +151,14 @@ export const supportPackInfo: SupporterPackProp2 = [
   },
   {
     feature: `
-      In Yahweh's Creations, every corridor echoes with forgotten prayers, every enemy is a symbol of a twisted past, and every choice you make carves deeper into fate's flesh.
+      In OK'RHAMS Creation, every corridor echoes with forgotten prayers, every enemy is a symbol of a twisted past, and every choice you make carves deeper into fate's flesh.
 
-      As the Bishop of Yahweh, you wield divine relics and forbidden knowledge to purge the catacombs of false gods and ancient sins.
+      As the Bishop of OK'RHAM, you wield divine relics and forbidden knowledge to purge the catacombs of false gods and ancient sins.
 
       The game features:
        Handcrafted Environments – Explore cursed catacombs, sanctified ruins, and corrupted altars, built with intricate detail.
        Dynamic Combat – Master divine weapons, time-bending blessings, and eldritch powers.
-      Deep Lore – Uncover scriptures, relics, and heretical texts revealing the tragic history of Yahweh's fall.
+      Deep Lore – Uncover scriptures, relics, and heretical texts revealing the tragic history of OK'RHAMS fall.
       Unique Art & Sound** – A haunting visual palette and original soundtrack to immerse you in sacred dread.
       Exclusive Supporter Content – Gain access to rare relics, behind-the-scenes lore, and a personal mark etched into the game world.
 
