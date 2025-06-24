@@ -1,4 +1,3 @@
-
 import SupporterPack from "./components/ 006-Supporterpack";
 import LatestNews from "./components/LatestNews/index"
 import HeroSection from "./components/Herosection";
