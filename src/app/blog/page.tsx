@@ -1,12 +1,3 @@
-<<<<<<< HEAD
-import SystemRequirements from "../components/system-requirements/system-requirements";
-
-export default function BlogPage() {
-  return (
-    <main className="relative">
-      <SystemRequirements />
-    </main>
-=======
 import RecentNews from "../components/017-RecentNews";
 import SystemRequirements from "../components/021-systemRequirements";
 import BlogHeroSection from "../components/BlogHeroSection/BlogHeroSection";
@@ -26,6 +17,5 @@ export default function BlogPage() {
       <OfficialMediaSection />
       <SystemRequirements />
     </section>
->>>>>>> 172508f2771d06c463b20fdeb3333c28ef9549fe
   );
 }
