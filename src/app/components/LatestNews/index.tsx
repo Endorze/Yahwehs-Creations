@@ -40,7 +40,7 @@ export default function LatestNews() {
               LATEST NEWS
             </h2>
             <p className="text-[#808080] text-sm" style={{ fontFamily: 'Germania One, cursive' }}>
-              YAHWEH'S CREATIONS
+              OK'RHAMS CREATION
             </p>
           </div>
           <button

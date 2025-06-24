@@ -11,7 +11,7 @@ const CreditsAboutUs = () => {
           <div className="text-white md:py-20 py-4 px-4 font-extrabold">
             <div>
               <h2 className="  mb-3 md:mb-5 text-3xl md:text-5xl sm:text-4xl">
-                YAHWEH&apos;S CREATIONS CREW
+                OK'RHAMS CREATION CREW
               </h2>
               <p className="max-w-[38rem] text-sm sm:text-sm">
                 &quot;We are a team of passionate developers, artists, and

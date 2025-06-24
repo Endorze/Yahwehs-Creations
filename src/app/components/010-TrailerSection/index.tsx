@@ -18,7 +18,7 @@ const TrailerSection = () => {
                     {/* Top Text */}
                     <div className="text-left">
                         <H2Title text="HOW ARE WE CERTAIN THAT ANGELS MEAN NO HARM" size="25px" />
-                        <H3Title text="DELVE DEEP INTO THE CATACOMBS OF YAHWEH'S CATHEDRAL" size="20px" />
+                        <H3Title text="DELVE DEEP INTO THE CATACOMBS OF OK'RHAMS CATHEDRAL" size="20px" />
                         <p className="text-sm max-w-2xl mt-4 mb-8">
                             "For God so loved the world that he gave his one and only Son, That whoever believes in him shall not perish but have eternal life.
                             For I know the plans I have for you," declares the LORD, "plans to prosper you and not to harm you, plans to give you hope and a future."
