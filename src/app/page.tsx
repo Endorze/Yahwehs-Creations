@@ -9,7 +9,7 @@ export default function Home() {
     <>
       <div className="flex flex-col min-h-screen justify-center">
         <HeroSection />
-        <LatestNews />
+        <LatestNews isMainPage={true}/>
         <SupporterPack />
         <OurCreations />
       </div>

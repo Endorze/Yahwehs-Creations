@@ -4,18 +4,11 @@ import Container from '../Container/container';
 
 const MeetTheCreatures = () => {
     return (
-            <section className="relative bg-black text-white pt-16 pb-32" id='creatures'>
-        <Container>
-            <div className="px-6 text-center md:text-left md:px-36 mb-12">
-                <H2Title text="MEET THE CREATURES" size="32px" />
-            </div>
-            <FeatureSection
-                name="Seraphim"
-                subtitle="DO NOT BE AFRAID"
-                description="Twisted by divine irony, loyal clerics became monstrous angels—flesh torn, minds warped. Corrupted by desire, they now guard the cathedral with arcane might, ensuring none defy the Archbishop or disturb the god they once prayed to—and betrayed."
-                image="/images/monsters/angel.png"
-            />
-
+        <section className="relative bg-black text-white pt-16 pb-32" id='creatures'>
+            <Container>
+                <div className="px-6 text-center md:text-left md:px-36 mb-12">
+                    <H2Title text="MEET THE CREATURES" size="32px" />
+                </div>
                 <FeatureSection
                     name="Seraphim"
                     subtitle="DO NOT BE AFRAID"
