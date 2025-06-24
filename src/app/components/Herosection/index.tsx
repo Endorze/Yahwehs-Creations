@@ -66,7 +66,7 @@ export default function Herosection() {
             className="text-white font-Germania_One text-[14px] sm:text-[20px] text-right leading-snug"
             style={{ textShadow: '0px 4px 4px rgba(0,0,0,0.25)' }}
           >
-            Can you solve the mystery behind <br /> Yahweh’s Creations?
+            Can you solve the mystery behind <br /> Ok'Rhams Creations?
           </p>
         </div>
       </div>
