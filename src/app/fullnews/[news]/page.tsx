@@ -21,7 +21,7 @@ const NewsDetail = async ({ params }: { params: Promise<{ news: string }> }) => 
                         </div>
 
                         <div className="text-left p-4 pb-16 uppercase">
-                            <Button text="back" href="/blog" />
+                            <Button text="back" back/>
                         </div>
                     </div>
                 ) : (
