@@ -13,14 +13,14 @@ const sections = [
   {
     title: "Vision",
     description:
-      "We believe games can be more than entertainment — they can be places of tension, beauty, and reflection. OK'RHAMS Cathedral is built to unsettle, to mesmerize, and to linger. Our vision is to craft a world where the sacred becomes strange, and every shadow might conceal something divine... or something else entirely. We don’t hold your hand. We dim the lights — and ask you to walk forward.",
+      "We believe games can be more than entertainment — they can be places of tension, beauty, and reflection. OK'RHAMS Cathedral is built to unsettle, to mesmerize, and to linger. Our vision is to craft a world where the sacred becomes strange, and every shadow might conceal something divine... or something else entirely.",
     image: "/images/values/vision.png",
     href: "/blog#faq",
   },
   {
     title: "Values",
     description:
-      "We know that Ok'Rhams Cathedral touches on heavy, sometimes disturbing themes — faith, guilt, death, judgment. That’s intentional. But it’s never for shock value. It’s because we believe games can challenge, provoke, and ask uncomfortable questions. That said: If the tone, the themes, or the atmosphere don’t resonate with you — we completely understand.This game isn’t for everyone. It wasn’t meant to be. But for those it is meant for — it will speak deeply.",
+      "We know that Ok'Rhams Cathedral touches on heavy, sometimes disturbing themes — faith, guilt, death, judgment. That’s intentional. That said: If the tone, the themes, or the atmosphere don’t resonate with you — we completely understand. This game isn’t for everyone. It wasn’t meant to be. But for those it is meant for — it will speak deeply.",
     image: "/images/values/values.png",
     href: "/blog#faq",
   },
