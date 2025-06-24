@@ -43,13 +43,13 @@ export default function LatestNews() {
               YAHWEH'S CREATIONS
             </p>
           </div>
-          <button
+          {/* <button
             onClick={handleAllNewsClick}
             className="text-[#808080] hover:text-[#e6a54c] transition-colors duration-300 text-sm cursor-pointer"
             style={{ fontFamily: 'Germania One, cursive' }}
           >
             ALL NEWS
-          </button>
+          </button> */}
         </div>
 
         <div className="flex flex-col gap-4 pb-12">
