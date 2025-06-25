@@ -53,7 +53,7 @@ Tactical thinking is not optional; it’s essential to surviving and progressing
     title: "Development Information",
     date: "May 25, 2025",
     type: "NEWS",
-    image: "/art/development.png",
+    image: "/art/glasspanes.png",
     description: `
              In our development, we harness the power of Unreal Engine 5.5 to build a rich and responsive game world for Windows PC.
 Using C++ and Visual Studio, we implement complex systems and mechanics that support our design pillars.
