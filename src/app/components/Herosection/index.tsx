@@ -53,7 +53,7 @@ export default function HeroSection() {
         >
           <div className="flex-1 flex justify-start pl-10">
             <a
-              href="https://futuregames.itch.io/yahwehs-creation">
+              href="https://futuregames.itch.io/yahwehs-creation" target='_blank'>
 
               <img
                 src="/images/okrhamslogo.png"
